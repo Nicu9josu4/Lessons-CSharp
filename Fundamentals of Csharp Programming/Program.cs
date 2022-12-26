@@ -15,6 +15,13 @@
         // enum call:
         Console.WriteLine(Week.friday.ToString());
         Console.WriteLine(Week.sunday);
+        Console.WriteLine();
+
+
+        // не баг а фитча
+        Console.Write("It's a Fitche ");
+        Console.WriteLine($"0.1 + 0.2 = {0.1+0.2}");
+        Console.WriteLine($"0.1 + 0.2 == 0.3 is {0.1 + 0.2 == 0.3}");
     }
 }
 

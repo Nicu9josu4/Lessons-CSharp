@@ -11,10 +11,19 @@ namespace Object_Oriented_Programming
     {
         internal static void Main()
         {
-            Employee employee= new Employee();
+            Employee employee = new();
             employee.Name = "Aliosha";
             employee.ID = 1;
             employee.Company = "Moldcell";
+
+            /*
+             * Employee employee = new()
+             * {
+             *     Name = "Aliosha",
+             *     ID = 1,
+             *     Company = "Moldcell",
+             * };
+             */
 
             employee.Print();
         }
