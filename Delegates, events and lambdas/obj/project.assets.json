@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VisualStudio Projects\\Lessons-CSharp\\Delegates, events and lambdas\\4. Delegates, events and lambdas.csproj",
-      "projectName": "4. Delegates, events and lambdas",
-      "projectPath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Delegates, events and lambdas\\4. Delegates, events and lambdas.csproj",
+      "projectUniqueName": "C:\\Users\\ijosu\\Source\\Repos\\Lessons-CSharp\\Lesons Csharp\\Lesons Csharp.csproj",
+      "projectName": "Lesons Csharp",
+      "projectPath": "C:\\Users\\ijosu\\Source\\Repos\\Lessons-CSharp\\Lesons Csharp\\Lesons Csharp.csproj",
       "packagesPath": "C:\\Users\\ijosu\\.nuget\\packages\\",
-      "outputPath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Delegates, events and lambdas\\obj\\",
+      "outputPath": "C:\\Users\\ijosu\\Source\\Repos\\Lessons-CSharp\\Lesons Csharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
