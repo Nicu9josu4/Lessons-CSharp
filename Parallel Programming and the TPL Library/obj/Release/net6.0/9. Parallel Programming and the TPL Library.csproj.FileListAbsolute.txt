@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\bin\Release\net6.0\9. Parallel Programming and the TPL Library.exe
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\bin\Release\net6.0\9. Parallel Programming and the TPL Library.deps.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\bin\Release\net6.0\9. Parallel Programming and the TPL Library.runtimeconfig.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\bin\Release\net6.0\9. Parallel Programming and the TPL Library.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\bin\Release\net6.0\9. Parallel Programming and the TPL Library.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\obj\Release\net6.0\9. Parallel Programming and the TPL Library.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\obj\Release\net6.0\9. Parallel Programming and the TPL Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\obj\Release\net6.0\9. Parallel Programming and the TPL Library.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\obj\Release\net6.0\9. Parallel Programming and the TPL Library.AssemblyInfo.cs
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\obj\Release\net6.0\9. Parallel Programming and the TPL Library.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\obj\Release\net6.0\9. Parallel Programming and the TPL Library.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\obj\Release\net6.0\refint\9. Parallel Programming and the TPL Library.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\obj\Release\net6.0\9. Parallel Programming and the TPL Library.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\obj\Release\net6.0\9. Parallel Programming and the TPL Library.genruntimeconfig.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Parallel Programming and the TPL Library\obj\Release\net6.0\ref\9. Parallel Programming and the TPL Library.dll

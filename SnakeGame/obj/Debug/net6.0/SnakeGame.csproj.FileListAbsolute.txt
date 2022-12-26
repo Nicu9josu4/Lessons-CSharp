@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\bin\Debug\net6.0\SnakeGame.exe
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\bin\Debug\net6.0\SnakeGame.deps.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\bin\Debug\net6.0\SnakeGame.runtimeconfig.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\bin\Debug\net6.0\SnakeGame.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\bin\Debug\net6.0\SnakeGame.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\obj\Debug\net6.0\SnakeGame.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\obj\Debug\net6.0\SnakeGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\obj\Debug\net6.0\SnakeGame.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\obj\Debug\net6.0\SnakeGame.AssemblyInfo.cs
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\obj\Debug\net6.0\SnakeGame.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\obj\Debug\net6.0\SnakeGame.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\obj\Debug\net6.0\refint\SnakeGame.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\obj\Debug\net6.0\SnakeGame.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\obj\Debug\net6.0\SnakeGame.genruntimeconfig.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\SnakeGame\obj\Debug\net6.0\ref\SnakeGame.dll

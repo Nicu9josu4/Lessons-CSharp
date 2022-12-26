@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\bin\Debug\net6.0\5. Interfaces.exe
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\bin\Debug\net6.0\5. Interfaces.deps.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\bin\Debug\net6.0\5. Interfaces.runtimeconfig.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\bin\Debug\net6.0\5. Interfaces.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\bin\Debug\net6.0\5. Interfaces.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\obj\Debug\net6.0\5. Interfaces.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\obj\Debug\net6.0\5. Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\obj\Debug\net6.0\5. Interfaces.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\obj\Debug\net6.0\5. Interfaces.AssemblyInfo.cs
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\obj\Debug\net6.0\5. Interfaces.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\obj\Debug\net6.0\5. Interfaces.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\obj\Debug\net6.0\refint\5. Interfaces.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\obj\Debug\net6.0\5. Interfaces.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\obj\Debug\net6.0\5. Interfaces.genruntimeconfig.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Interfaces\obj\Debug\net6.0\ref\5. Interfaces.dll

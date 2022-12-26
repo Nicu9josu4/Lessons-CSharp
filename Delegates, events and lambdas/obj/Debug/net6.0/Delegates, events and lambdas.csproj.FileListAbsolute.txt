@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\bin\Debug\net6.0\Delegates, events and lambdas.exe
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\bin\Debug\net6.0\Delegates, events and lambdas.deps.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\bin\Debug\net6.0\Delegates, events and lambdas.runtimeconfig.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\bin\Debug\net6.0\Delegates, events and lambdas.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\bin\Debug\net6.0\Delegates, events and lambdas.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\obj\Debug\net6.0\Delegates, events and lambdas.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\obj\Debug\net6.0\Delegates, events and lambdas.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\obj\Debug\net6.0\Delegates, events and lambdas.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\obj\Debug\net6.0\Delegates, events and lambdas.AssemblyInfo.cs
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\obj\Debug\net6.0\Delegates, events and lambdas.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\obj\Debug\net6.0\Delegates, events and lambdas.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\obj\Debug\net6.0\refint\Delegates, events and lambdas.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\obj\Debug\net6.0\Delegates, events and lambdas.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\obj\Debug\net6.0\Delegates, events and lambdas.genruntimeconfig.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Delegates, events and lambdas\obj\Debug\net6.0\ref\Delegates, events and lambdas.dll

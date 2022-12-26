@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\bin\Debug\net6.0\Fundamentals of Csharp Programming.exe
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\bin\Debug\net6.0\Fundamentals of Csharp Programming.deps.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\bin\Debug\net6.0\Fundamentals of Csharp Programming.runtimeconfig.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\bin\Debug\net6.0\Fundamentals of Csharp Programming.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\bin\Debug\net6.0\Fundamentals of Csharp Programming.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\obj\Debug\net6.0\Fundamentals of Csharp Programming.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\obj\Debug\net6.0\Fundamentals of Csharp Programming.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\obj\Debug\net6.0\Fundamentals of Csharp Programming.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\obj\Debug\net6.0\Fundamentals of Csharp Programming.AssemblyInfo.cs
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\obj\Debug\net6.0\Fundamentals of Csharp Programming.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\obj\Debug\net6.0\Fundamentals of Csharp Programming.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\obj\Debug\net6.0\refint\Fundamentals of Csharp Programming.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\obj\Debug\net6.0\Fundamentals of Csharp Programming.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\obj\Debug\net6.0\Fundamentals of Csharp Programming.genruntimeconfig.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Fundamentals of Csharp Programming\obj\Debug\net6.0\ref\Fundamentals of Csharp Programming.dll

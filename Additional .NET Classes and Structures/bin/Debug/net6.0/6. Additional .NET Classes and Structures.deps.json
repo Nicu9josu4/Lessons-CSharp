@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "6. Additional .NET Classes and Structures/1.0.0": {
+        "runtime": {
+          "6. Additional .NET Classes and Structures.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "6. Additional .NET Classes and Structures/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

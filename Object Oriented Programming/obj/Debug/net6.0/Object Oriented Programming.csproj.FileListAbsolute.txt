@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\bin\Debug\net6.0\Object Oriented Programming.exe
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\bin\Debug\net6.0\Object Oriented Programming.deps.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\bin\Debug\net6.0\Object Oriented Programming.runtimeconfig.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\bin\Debug\net6.0\Object Oriented Programming.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\bin\Debug\net6.0\Object Oriented Programming.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\obj\Debug\net6.0\Object Oriented Programming.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\obj\Debug\net6.0\Object Oriented Programming.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\obj\Debug\net6.0\Object Oriented Programming.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\obj\Debug\net6.0\Object Oriented Programming.AssemblyInfo.cs
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\obj\Debug\net6.0\Object Oriented Programming.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\obj\Debug\net6.0\Object Oriented Programming.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\obj\Debug\net6.0\refint\Object Oriented Programming.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\obj\Debug\net6.0\Object Oriented Programming.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\obj\Debug\net6.0\Object Oriented Programming.genruntimeconfig.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Object Oriented Programming\obj\Debug\net6.0\ref\Object Oriented Programming.dll

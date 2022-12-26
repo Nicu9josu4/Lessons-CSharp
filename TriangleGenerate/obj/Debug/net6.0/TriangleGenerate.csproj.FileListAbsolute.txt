@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\bin\Debug\net6.0\TriangleGenerate.exe
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\bin\Debug\net6.0\TriangleGenerate.deps.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\bin\Debug\net6.0\TriangleGenerate.runtimeconfig.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\bin\Debug\net6.0\TriangleGenerate.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\bin\Debug\net6.0\TriangleGenerate.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\obj\Debug\net6.0\TriangleGenerate.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\obj\Debug\net6.0\TriangleGenerate.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\obj\Debug\net6.0\TriangleGenerate.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\obj\Debug\net6.0\TriangleGenerate.AssemblyInfo.cs
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\obj\Debug\net6.0\TriangleGenerate.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\obj\Debug\net6.0\TriangleGenerate.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\obj\Debug\net6.0\refint\TriangleGenerate.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\obj\Debug\net6.0\TriangleGenerate.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\obj\Debug\net6.0\TriangleGenerate.genruntimeconfig.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\TriangleGenerate\obj\Debug\net6.0\ref\TriangleGenerate.dll

@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\bin\Debug\net6.0\7. Collections.exe
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\bin\Debug\net6.0\7. Collections.deps.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\bin\Debug\net6.0\7. Collections.runtimeconfig.json
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\bin\Debug\net6.0\7. Collections.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\bin\Debug\net6.0\7. Collections.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\obj\Debug\net6.0\7. Collections.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\obj\Debug\net6.0\7. Collections.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\obj\Debug\net6.0\7. Collections.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\obj\Debug\net6.0\7. Collections.AssemblyInfo.cs
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\obj\Debug\net6.0\7. Collections.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\obj\Debug\net6.0\7. Collections.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\obj\Debug\net6.0\refint\7. Collections.dll
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\obj\Debug\net6.0\7. Collections.pdb
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\obj\Debug\net6.0\7. Collections.genruntimeconfig.cache
+D:\VisualStudio Projects\Fundamentals of Csharp Programming\Collections\obj\Debug\net6.0\ref\7. Collections.dll

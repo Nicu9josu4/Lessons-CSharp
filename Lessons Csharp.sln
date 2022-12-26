@@ -1,0 +1,127 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0. Fundamentals of Csharp Programming", "Fundamentals of Csharp Programming\0. Fundamentals of Csharp Programming.csproj", "{4CCE241C-B60B-4093-91B4-A3EB54F5420A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.Classes", "ConsoleApp1\1.Classes.csproj", "{64813BC8-E1B1-446B-B752-6EBE95680640}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Object Oriented Programming", "Object Oriented Programming\2. Object Oriented Programming.csproj", "{EBC0711E-5169-4BC1-A448-165FAC8D8825}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3. Exception Handling", "Exception Handling\3. Exception Handling.csproj", "{B65D1F81-C271-4105-A49A-82864047F630}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4. Delegates, events and lambdas", "Delegates, events and lambdas\4. Delegates, events and lambdas.csproj", "{23A7266E-8645-4C7A-A9D9-C863B56AB373}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5. Interfaces", "Interfaces\5. Interfaces.csproj", "{9DC6EC30-AF87-4581-ADE9-9AFA9BA17246}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7. Collections", "Collections\7. Collections.csproj", "{3D81529C-FE22-4729-B595-D32A9E488D77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6. Additional .NET Classes and Structures", "Additional .NET Classes and Structures\6. Additional .NET Classes and Structures.csproj", "{6B62669D-4514-4811-803E-88B2B1972A72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8. Multithreading", "Multithreading\8. Multithreading.csproj", "{8B01FC21-CD3F-4EC1-A10A-8B4921778F06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9. Parallel Programming and the TPL Library", "Parallel Programming and the TPL Library\9. Parallel Programming and the TPL Library.csproj", "{6A0557C4-DBC0-4063-A8E1-4D810A9BF79B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "91. Asynchronous Programming", "Asynchronous Programming\91. Asynchronous Programming.csproj", "{0B4B896C-3456-4B35-B92F-0BFC7D3B53ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "92. LINQ and Parallel LINQ", "LINQ and Parallel LINQ\92. LINQ and Parallel LINQ.csproj", "{2CF44963-380B-4B41-BA0B-8C42D5DC8094}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "93. Dynamic Language Runtime", "Dynamic Language Runtime\93. Dynamic Language Runtime.csproj", "{B3E5BA41-C040-42C0-884E-90A61E7D624F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "94.Garbage Collection, Memory Management, and Pointers", "Garbage Collection, Memory Management, and Pointers\94.Garbage Collection, Memory Management, and Pointers.csproj", "{FFF61209-DD30-4BD3-AB3E-E86DC0ACF8FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "95. Working with JSON and XML", "Working with JSON and XML\95. Working with JSON and XML.csproj", "{5EC7CDAF-4DA6-4384-BF57-09830D9D4838}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "96. Processes and Application Domains", "Processes and Application Domains\96. Processes and Application Domains.csproj", "{F86A27AA-5997-4B8D-8AA9-97AF31B247FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnakeGame", "SnakeGame\SnakeGame.csproj", "{0DB87EB8-0482-40A9-ACED-5E747C4C7FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleGenerate", "TriangleGenerate\TriangleGenerate.csproj", "{D069E5B8-930C-42E9-AA25-B2BA73AAEEDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CCE241C-B60B-4093-91B4-A3EB54F5420A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CCE241C-B60B-4093-91B4-A3EB54F5420A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CCE241C-B60B-4093-91B4-A3EB54F5420A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CCE241C-B60B-4093-91B4-A3EB54F5420A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64813BC8-E1B1-446B-B752-6EBE95680640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64813BC8-E1B1-446B-B752-6EBE95680640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64813BC8-E1B1-446B-B752-6EBE95680640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64813BC8-E1B1-446B-B752-6EBE95680640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC0711E-5169-4BC1-A448-165FAC8D8825}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC0711E-5169-4BC1-A448-165FAC8D8825}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC0711E-5169-4BC1-A448-165FAC8D8825}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC0711E-5169-4BC1-A448-165FAC8D8825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B65D1F81-C271-4105-A49A-82864047F630}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65D1F81-C271-4105-A49A-82864047F630}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65D1F81-C271-4105-A49A-82864047F630}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65D1F81-C271-4105-A49A-82864047F630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A7266E-8645-4C7A-A9D9-C863B56AB373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A7266E-8645-4C7A-A9D9-C863B56AB373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A7266E-8645-4C7A-A9D9-C863B56AB373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A7266E-8645-4C7A-A9D9-C863B56AB373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC6EC30-AF87-4581-ADE9-9AFA9BA17246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC6EC30-AF87-4581-ADE9-9AFA9BA17246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC6EC30-AF87-4581-ADE9-9AFA9BA17246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC6EC30-AF87-4581-ADE9-9AFA9BA17246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D81529C-FE22-4729-B595-D32A9E488D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D81529C-FE22-4729-B595-D32A9E488D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D81529C-FE22-4729-B595-D32A9E488D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D81529C-FE22-4729-B595-D32A9E488D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B62669D-4514-4811-803E-88B2B1972A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B62669D-4514-4811-803E-88B2B1972A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B62669D-4514-4811-803E-88B2B1972A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B62669D-4514-4811-803E-88B2B1972A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B01FC21-CD3F-4EC1-A10A-8B4921778F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B01FC21-CD3F-4EC1-A10A-8B4921778F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B01FC21-CD3F-4EC1-A10A-8B4921778F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B01FC21-CD3F-4EC1-A10A-8B4921778F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A0557C4-DBC0-4063-A8E1-4D810A9BF79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A0557C4-DBC0-4063-A8E1-4D810A9BF79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A0557C4-DBC0-4063-A8E1-4D810A9BF79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A0557C4-DBC0-4063-A8E1-4D810A9BF79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4B896C-3456-4B35-B92F-0BFC7D3B53ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4B896C-3456-4B35-B92F-0BFC7D3B53ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4B896C-3456-4B35-B92F-0BFC7D3B53ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4B896C-3456-4B35-B92F-0BFC7D3B53ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF44963-380B-4B41-BA0B-8C42D5DC8094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF44963-380B-4B41-BA0B-8C42D5DC8094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF44963-380B-4B41-BA0B-8C42D5DC8094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF44963-380B-4B41-BA0B-8C42D5DC8094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E5BA41-C040-42C0-884E-90A61E7D624F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E5BA41-C040-42C0-884E-90A61E7D624F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E5BA41-C040-42C0-884E-90A61E7D624F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E5BA41-C040-42C0-884E-90A61E7D624F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF61209-DD30-4BD3-AB3E-E86DC0ACF8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF61209-DD30-4BD3-AB3E-E86DC0ACF8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF61209-DD30-4BD3-AB3E-E86DC0ACF8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF61209-DD30-4BD3-AB3E-E86DC0ACF8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EC7CDAF-4DA6-4384-BF57-09830D9D4838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC7CDAF-4DA6-4384-BF57-09830D9D4838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC7CDAF-4DA6-4384-BF57-09830D9D4838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC7CDAF-4DA6-4384-BF57-09830D9D4838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86A27AA-5997-4B8D-8AA9-97AF31B247FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86A27AA-5997-4B8D-8AA9-97AF31B247FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86A27AA-5997-4B8D-8AA9-97AF31B247FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86A27AA-5997-4B8D-8AA9-97AF31B247FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB87EB8-0482-40A9-ACED-5E747C4C7FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB87EB8-0482-40A9-ACED-5E747C4C7FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB87EB8-0482-40A9-ACED-5E747C4C7FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB87EB8-0482-40A9-ACED-5E747C4C7FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D069E5B8-930C-42E9-AA25-B2BA73AAEEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D069E5B8-930C-42E9-AA25-B2BA73AAEEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D069E5B8-930C-42E9-AA25-B2BA73AAEEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D069E5B8-930C-42E9-AA25-B2BA73AAEEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4E3521A-14A2-466D-A64A-0145081863F6}
+	EndGlobalSection
+EndGlobal

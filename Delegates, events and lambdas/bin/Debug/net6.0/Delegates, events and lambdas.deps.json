@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Delegates, events and lambdas/1.0.0": {
+        "runtime": {
+          "Delegates, events and lambdas.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Delegates, events and lambdas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
