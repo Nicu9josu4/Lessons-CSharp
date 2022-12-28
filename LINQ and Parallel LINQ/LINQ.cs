@@ -17,8 +17,8 @@
             ListOfNames.Add("Rat"); Console.WriteLine("Added to last item " + ListOfNames.Last());
             ListOfNames.Add("Crot"); Console.WriteLine("Added to last item " + ListOfNames.Last());
             Console.WriteLine("List of Names now have:" + ListOfNames.Count + " elements"); // Count of elements in the List
-            string input = "HELLLO";
-            Console.WriteLine(input.ToLower());
+            //string input = "HELLLO";
+            //Console.WriteLine(input.ToLower());
         }
     }
 }

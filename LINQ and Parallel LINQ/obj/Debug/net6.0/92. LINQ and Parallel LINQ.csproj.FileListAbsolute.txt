@@ -13,3 +13,18 @@ D:\VisualStudio Projects\Fundamentals of Csharp Programming\LINQ and Parallel LI
 D:\VisualStudio Projects\Fundamentals of Csharp Programming\LINQ and Parallel LINQ\obj\Debug\net6.0\92. LINQ and Parallel LINQ.pdb
 D:\VisualStudio Projects\Fundamentals of Csharp Programming\LINQ and Parallel LINQ\obj\Debug\net6.0\92. LINQ and Parallel LINQ.genruntimeconfig.cache
 D:\VisualStudio Projects\Fundamentals of Csharp Programming\LINQ and Parallel LINQ\obj\Debug\net6.0\ref\92. LINQ and Parallel LINQ.dll
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\bin\Debug\net6.0\92. LINQ and Parallel LINQ.exe
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\bin\Debug\net6.0\92. LINQ and Parallel LINQ.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\bin\Debug\net6.0\92. LINQ and Parallel LINQ.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\bin\Debug\net6.0\92. LINQ and Parallel LINQ.dll
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\bin\Debug\net6.0\92. LINQ and Parallel LINQ.pdb
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\obj\Debug\net6.0\92. LINQ and Parallel LINQ.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\obj\Debug\net6.0\92. LINQ and Parallel LINQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\obj\Debug\net6.0\92. LINQ and Parallel LINQ.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\obj\Debug\net6.0\92. LINQ and Parallel LINQ.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\obj\Debug\net6.0\92. LINQ and Parallel LINQ.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\obj\Debug\net6.0\92. LINQ and Parallel LINQ.dll
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\obj\Debug\net6.0\refint\92. LINQ and Parallel LINQ.dll
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\obj\Debug\net6.0\92. LINQ and Parallel LINQ.pdb
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\obj\Debug\net6.0\92. LINQ and Parallel LINQ.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\LINQ and Parallel LINQ\obj\Debug\net6.0\ref\92. LINQ and Parallel LINQ.dll
