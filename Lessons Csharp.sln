@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "96. Processes and Applicati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnakeGame", "SnakeGame\SnakeGame.csproj", "{0DB87EB8-0482-40A9-ACED-5E747C4C7FB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleGenerate", "TriangleGenerate\TriangleGenerate.csproj", "{D069E5B8-930C-42E9-AA25-B2BA73AAEEDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleGenerate", "TriangleGenerate\TriangleGenerate.csproj", "{D069E5B8-930C-42E9-AA25-B2BA73AAEEDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ULearn", "ULearn\ULearn.csproj", "{3109FF06-AA48-4E96-A2DD-9889980194AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{D069E5B8-930C-42E9-AA25-B2BA73AAEEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D069E5B8-930C-42E9-AA25-B2BA73AAEEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D069E5B8-930C-42E9-AA25-B2BA73AAEEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3109FF06-AA48-4E96-A2DD-9889980194AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3109FF06-AA48-4E96-A2DD-9889980194AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3109FF06-AA48-4E96-A2DD-9889980194AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3109FF06-AA48-4E96-A2DD-9889980194AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

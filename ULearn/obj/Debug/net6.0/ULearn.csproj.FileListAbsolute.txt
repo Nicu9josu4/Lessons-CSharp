@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\bin\Debug\net6.0\ULearn.exe
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\bin\Debug\net6.0\ULearn.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\bin\Debug\net6.0\ULearn.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\bin\Debug\net6.0\ULearn.dll
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\bin\Debug\net6.0\ULearn.pdb
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ULearn.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ULearn.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ULearn.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ULearn.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ULearn.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ULearn.dll
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\refint\ULearn.dll
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ULearn.pdb
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ULearn.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ref\ULearn.dll
