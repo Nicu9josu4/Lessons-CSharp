@@ -18,6 +18,7 @@ Expr8. Дана прямая L и точка A. Найти точку перес
 */
 
 using System;
+using System.Text;
 
 class Program
 {
@@ -494,38 +495,231 @@ class Program
     #endregion
 
     #region PoverOfArrays
-    public static void PrintArray(int[] array)
+    //public static void PrintArray(int[] array)
+    //{
+    //    foreach(var a in array)
+    //    {
+    //        Console.Write(a.ToString() + " ");
+    //    }
+    //    Console.WriteLine();
+    //}
+    //public static void Main()
+    //{
+    //    var arrayToPower = new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+    //    // Метод PrintArray уже написан за вас
+    //    PrintArray(GetPoweredArray(arrayToPower, 1));
+
+    //    // если вы будете менять исходный массив, то следующие два теста сработают неверно:
+    //    PrintArray(GetPoweredArray(arrayToPower, 2));
+    //    PrintArray(GetPoweredArray(arrayToPower, 3));
+
+    //    // не забывайте про частные случаи:
+    //    PrintArray(GetPoweredArray(new int[0], 1));
+    //    PrintArray(GetPoweredArray(new[] { 42 }, 0));
+
+    //    var a = new int[2, 3];
+    //    Console.WriteLine(a.GetType());
+    //    var b = new int[2][];
+    //    Console.WriteLine(b.GetType());
+    //}
+    //public static int[] GetPoweredArray(int[] arr, int power)
+    //{
+    //    int[] array = new int[arr.Length];
+    //    for(int i = 0;i < arr.Length;i++)
+    //    {
+    //        array[i] = (int)Math.Pow(arr[i], power);
+    //    }
+    //    return array;
+    //}
+
+    #endregion
+
+    #region CrossAndCircles
+    //public enum Mark
+    //{
+    //    Empty,
+    //    Cross,
+    //    Circle
+    //}
+
+    //public enum GameResult
+    //{
+    //    CrossWin,
+    //    CircleWin,
+    //    Draw
+    //}
+
+    //public static void Main()
+    //{
+    //    Run("XXX OO. ...");     //XXX
+    //    Run("OXO XO. .XO");     //OO 
+    //    Run("OXO XOX OX.");     //  
+    //    Run("XOX OXO OXO");
+    //    Run("... ... ...");
+    //    Run("XXX OOO ...");
+    //    Run("XOO XOO XX.");
+    //    Run(".O. XO. XOX");
+    //}
+
+    //private static void Run(string description)
+    //{
+    //    Console.WriteLine(description.Replace(" ", Environment.NewLine));
+    //    Console.WriteLine(GetGameResult(CreateFromString(description)));
+    //    Console.WriteLine();
+    //}
+
+    //private static Mark[,] CreateFromString(string str)
+    //{
+    //    var field = str.Split(' ');
+    //    var ans = new Mark[3, 3];
+    //    for (int x = 0; x < field.Length; x++)
+    //        for (var y = 0; y < field.Length; y++)
+    //            ans[x, y] = field[x][y] == 'X' ? Mark.Cross : (field[x][y] == 'O' ? Mark.Circle : Mark.Empty);
+    //    return ans;
+    //}
+
+    //public static GameResult GetGameResult(Mark[,] field)
+    //{
+    //    bool crossWin = false, circleWin = false;
+    //    GameResult win = GameResult.Draw;
+    //    if (field[0, 0] == field[0, 1] && field[0, 0] == field[0, 2]) win = field[0, 0] == Mark.Cross ? GameResult.CrossWin : field[0, 0] == Mark.Circle ? GameResult.CircleWin : GameResult.Draw;  _ = win == GameResult.CrossWin ? crossWin = true : win == GameResult.CircleWin ? circleWin = true : true;
+    //    if (field[1, 0] == field[1, 1] && field[1, 0] == field[1, 2]) win = field[1, 0] == Mark.Cross ? GameResult.CrossWin : field[1, 0] == Mark.Circle ? GameResult.CircleWin : GameResult.Draw;  _ = win == GameResult.CrossWin ? crossWin = true : win == GameResult.CircleWin ? circleWin = true : true;
+    //    if (field[2, 0] == field[2, 1] && field[2, 0] == field[2, 2]) win = field[2, 0] == Mark.Cross ? GameResult.CrossWin : field[2, 0] == Mark.Circle ? GameResult.CircleWin : GameResult.Draw;  _ = win == GameResult.CrossWin ? crossWin = true : win == GameResult.CircleWin ? circleWin = true : true;
+
+    //    if (field[0, 0] == field[1, 0] && field[0, 0] == field[2, 0]) win = field[0, 0] == Mark.Cross ? GameResult.CrossWin : field[0, 0] == Mark.Circle ? GameResult.CircleWin : GameResult.Draw;  _ = win == GameResult.CrossWin ? crossWin = true : win == GameResult.CircleWin ? circleWin = true : true;
+    //    if (field[0, 1] == field[1, 1] && field[0, 1] == field[2, 1]) win = field[0, 1] == Mark.Cross ? GameResult.CrossWin : field[0, 1] == Mark.Circle ? GameResult.CircleWin : GameResult.Draw;  _ = win == GameResult.CrossWin ? crossWin = true : win == GameResult.CircleWin ? circleWin = true : true;
+    //    if (field[0, 2] == field[1, 2] && field[0, 2] == field[2, 2]) win = field[0, 2] == Mark.Cross ? GameResult.CrossWin : field[0, 2] == Mark.Circle ? GameResult.CircleWin : GameResult.Draw;  _ = win == GameResult.CrossWin ? crossWin = true : win == GameResult.CircleWin ? circleWin = true : true;
+
+    //    if (field[0, 0] == field[1, 1] && field[0, 0] == field[2, 2]) win = field[0, 0] == Mark.Cross ? GameResult.CrossWin : field[0, 0] == Mark.Circle ? GameResult.CircleWin : GameResult.Draw;  _ = win == GameResult.CrossWin ? crossWin = true : win == GameResult.CircleWin ? circleWin = true : true;
+    //    if (field[2, 0] == field[1, 1] && field[2, 0] == field[0, 2]) win = field[2, 0] == Mark.Cross ? GameResult.CrossWin : field[2, 0] == Mark.Circle ? GameResult.CircleWin : GameResult.Draw;  _ = win == GameResult.CrossWin ? crossWin = true : win == GameResult.CircleWin ? circleWin = true : true;
+
+    //    return crossWin && circleWin ? GameResult.Draw : crossWin && !circleWin ? GameResult.CrossWin : !crossWin && circleWin ?  GameResult.CircleWin : GameResult.Draw;
+    //}
+
+
+    #endregion
+
+    #region ApplyCommands
+    internal static void Main()
     {
-        foreach(var a in array)
+        string[] strings = { "push Привет! Это снова я! Пока!", "pop 5", "push Как твои успехи? Плохо?", "push qwertyuiop", "push 1234567890", "pop 26", "..." };
+        Console.WriteLine(ApplyCommands(strings));
+    }
+    private static string ApplyCommands(string[] commands)
+    {
+        string Message = "";
+        StringBuilder stringBuilder = new();
+        
+        foreach (string command in commands)
         {
-            Console.Write(a.ToString() + " ");
+            //string comm = command[4..].Trim();
+            //if (command.Contains("push")) Message += command.Substring(5);
+            //if (command.Contains("pop")) Message = Message.Substring(0, Message.Length - Convert.ToInt32(command.Substring(4)));
+
+            
+            if (command.Contains("push")) stringBuilder.Append(command.AsSpan(5));
+            if (command.Contains("pop")) stringBuilder.Replace(stringBuilder.ToString(), stringBuilder.ToString().Substring(0, stringBuilder.Length - Convert.ToInt32(command[4..])));
+
+
         }
-        Console.WriteLine();
-    }
-    public static void Main()
-    {
-        var arrayToPower = new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        return stringBuilder.ToString();
 
-        // Метод PrintArray уже написан за вас
-        PrintArray(GetPoweredArray(arrayToPower, 1));
-
-        // если вы будете менять исходный массив, то следующие два теста сработают неверно:
-        PrintArray(GetPoweredArray(arrayToPower, 2));
-        PrintArray(GetPoweredArray(arrayToPower, 3));
-
-        // не забывайте про частные случаи:
-        PrintArray(GetPoweredArray(new int[0], 1));
-        PrintArray(GetPoweredArray(new[] { 42 }, 0));
-    }
-    public static int[] GetPoweredArray(int[] arr, int power)
-    {
-        int[] array = arr;
-        for(int i = 0;i< arr.Length;i++)
-        {
-            array[i] = (int)Math.Pow(arr[i], power);
-        }
-        return array;
     }
 
+    #endregion
+
+    #region Useful acquaintances
+    //public static Dictionary<string, List<string>> Diary = new() 
+    //{
+    //    {  "Alexandru" , new List<string> { "sasha1995@sasha.ru", "alex99@mail.ru", "shurik2020@google.com" } },
+    //    {  "Alexei" , new List<string> { "sasha1995@sasha.ru", "alex99@mail.ru", "shurik2020@google.com" } },
+    //    {  "AlexSamodelnii" , new List<string> { "sasha1995@sasha.ru", "alex99@mail.ru", "shurik2020@google.com" } },
+    //    {  "Bombonica" , new List<string> { "sasha1995@sasha.ru", "alex99@mail.ru", "shurik2020@google.com" } },
+    //    {  "Besleaga" , new List<string> { "sasha1995@sasha.ru", "alex99@mail.ru", "shurik2020@google.com" } },
+    //    {  "Zadrot" , new List<string> { "sasha1995@sasha.ru", "alex99@mail.ru", "shurik2020@google.com" } },
+    //    {  "Iakubovich" , new List<string> { "sasha1995@sasha.ru", "alex99@mail.ru", "shurik2020@google.com" } },
+    //};
+    //internal static void Main()
+    //{
+
+    //   var dic1 = OptimizeContacts(GetContacts("Al"));
+    //   var dic2 = OptimizeContacts(GetContacts("Bes"));
+
+    //    foreach(var str in dic1)
+    //    {
+    //        Console.Write(str.Key + " - ");
+    //        foreach(var email in str.Value)
+    //        {
+    //            Console.Write($"{email} ");
+    //        }
+    //        Console.WriteLine();
+    //    }
+    //    Console.WriteLine();
+    //    foreach(var str in dic2)
+    //    {
+    //        Console.WriteLine(str.Key);
+    //    }
+    //}
+    //internal static List<string> GetContacts(string abbreviature)
+    //{
+    //    List<string> Contacts = new();
+    //    //{ 
+    //    //    //"Alexandru",
+    //    //    //"Alexei",
+    //    //    //"AlexSamodelnii",
+    //    //    //"Bombonica",
+    //    //    //"Besleaga",
+    //    //    //"Zadrot",
+    //    //    //"Iakubovich",
+    //    //};
+    //    foreach(var value in Diary)
+    //    {
+    //        Contacts.Add(value.Key);
+    //    }
+    //    List<string> FoundContacts = new();
+    //    foreach(string contact in Contacts)
+    //    {
+    //        if(contact.Contains(abbreviature)) FoundContacts.Add(contact);
+    //    }
+    //    return FoundContacts;
+    //}
+    //private static Dictionary<string, List<string>> OptimizeContacts(List<string> contacts)
+    //{
+    //    var dictionary = new Dictionary<string, List<string>>();
+    //    foreach(var contact in contacts)
+    //    {
+    //        dictionary[contact] = Diary[contact];
+    //    }
+    //    return dictionary;
+    //}
+
+    #endregion
+
+    #region Split and Join
+
+    //public class Data
+    //{
+    //    public string Country { get; set; }
+    //    public int Population { get; set; }
+    //    public DateTime Date { get; set; }
+    //    public string Precentage { get; set; }
+    //}
+
+    //public static List<Data> citiesPopulation = new()
+    //{
+
+    //};
+    //public static void Main(string[] args)
+    //{
+    //    var var = ReplaceIncorrectSeparators(citiesPopulation.ToString());
+    //    foreach(var var1 in var)
+    //    Console.WriteLine(var1.ToString());
+    //}
+    //public static string ReplaceIncorrectSeparators(string text)
+    //{
+    //    char[] regex = { ':', ';', ',', '.' };
+    //    return text.Split(':');
+    //}
     #endregion
 }

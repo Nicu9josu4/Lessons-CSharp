@@ -1,0 +1,14 @@
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\bin\Debug\HarryPotterText.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\bin\Debug\TextAnalysis.exe.config
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\bin\Debug\TextAnalysis.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\bin\Debug\TextAnalysis.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\bin\Debug\nunit.framework.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\bin\Debug\nunitlite.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\obj\Debug\TextAnalysis.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\obj\Debug\TextAnalysis.csproj.SuggestedBindingRedirects.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\obj\Debug\TextAnalysis.Properties.Resources.resources
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\obj\Debug\TextAnalysis.csproj.GenerateResource.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\obj\Debug\TextAnalysis.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\obj\Debug\TextAnalysis.csproj.CopyComplete
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\obj\Debug\TextAnalysis.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TextAnalysis.csproj\obj\Debug\TextAnalysis.pdb
