@@ -17,6 +17,8 @@ Expr7. Найти вектор, параллельный прямой. Перп�
 Expr8. Дана прямая L и точка A. Найти точку пересечения прямой L с перпендикулярной ей прямой P, проходящей через точку A. Можете считать, что прямая задана либо двумя точками, либо коэффициентами уравнения прямой — как вам удобнее.
 */
 
+using System;
+
 class Program
 {
     #region get minX
@@ -408,19 +410,122 @@ class Program
 
     #region itemToCount
 
-    internal static void Main()
+    //internal static void Main()
+    //{
+    //    int[] items = { 1, 2, 2, 1, 1, 1, 1, };
+    //    Console.WriteLine(GetElementCount(items, 1));
+    //}
+    //public static int GetElementCount(int[] items, int itemToCount)
+    //{
+    //    int k = 0;
+    //    foreach(int item in items)
+    //    {
+    //        if ( item == itemToCount) k++;
+    //    }
+    //    return k;
+    //}
+    #endregion
+
+    #region ArrayInArray
+    //internal static void Main()
+    //{
+    //    int[] array = { 1, 2, 5, 6, 4, 3, 5, 5, 5, 5 };
+    //    int[] subArray = {2, 5, 6, 4, 3, };
+    //    Console.WriteLine(FindSubarrayStartIndex(array, subArray));
+    //}
+    //public static int FindSubarrayStartIndex(int[] array, int[] subArray)
+    //{
+    //    for (var i = 0; i < array.Length - subArray.Length + 1; i++)
+    //        if (ContainsAtIndex(array, subArray, i))
+    //            return i;
+    //    return -1;
+    //}
+    //public static bool ContainsAtIndex(int[] array, int[] subArray, int i)
+    //{
+    //    int k = 0,j = 0;
+    //    while ( k < subArray.Length)
+    //    {
+    //        if (array[i + k] == subArray[k]) j++;
+    //        k++;
+    //    }
+    //    return j == subArray.Length;
+    //}
+    #endregion
+
+    #region TranslateSite
+    //enum Suits
+    //{
+    //    Wands,
+    //    Coins,
+    //    Cups,
+    //    Swords
+    //}
+    //internal static void Main()
+    //{
+    //    Console.WriteLine(GetSuit(Suits.Wands));
+    //    Console.WriteLine(GetSuit(Suits.Coins));
+    //    Console.WriteLine(GetSuit(Suits.Cups));
+    //    Console.WriteLine(GetSuit(Suits.Swords));
+    //}
+    //private static string GetSuit(Suits suit)
+    //{
+    //    //string[] strings = { "жезлов", "монет", "кубков", "мечей" };
+
+    //    return (int)suit == 0 ? "жезлов" : (int)suit == 1 ? "монет" : (int)suit == 2 ? "кубков" : "мечей";
+    //    //return strings[(int)suit];
+
+    //}
+    #endregion
+
+    #region CheckIfIsNull
+    //internal static void Main()
+    //{
+    //    Console.WriteLine(CheckFirstElement(null));
+    //    Console.WriteLine(CheckFirstElement(new int[0]));
+    //    Console.WriteLine(CheckFirstElement(new[] { 1 }));
+    //    Console.WriteLine(CheckFirstElement(new[] { 0 }));
+    //}
+    //public static bool CheckFirstElement(int[] array)
+    //{
+    //    //return array != null & array.Length != 0 & array[0] == 0; 
+    //    return array != null && array.Length != 0 ? array[0] == 0 : false;
+
+    //}
+    #endregion
+
+    #region PoverOfArrays
+    public static void PrintArray(int[] array)
     {
-        int[] items = { 1, 2, 2, 1, 1, 1, 1, };
-        Console.WriteLine(GetElementCount(items, 1));
-    }
-    public static int GetElementCount(int[] items, int itemToCount)
-    {
-        int k = 0;
-        foreach(int item in items)
+        foreach(var a in array)
         {
-            if ( item == itemToCount) k++;
+            Console.Write(a.ToString() + " ");
         }
-        return k;
+        Console.WriteLine();
     }
+    public static void Main()
+    {
+        var arrayToPower = new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+        // Метод PrintArray уже написан за вас
+        PrintArray(GetPoweredArray(arrayToPower, 1));
+
+        // если вы будете менять исходный массив, то следующие два теста сработают неверно:
+        PrintArray(GetPoweredArray(arrayToPower, 2));
+        PrintArray(GetPoweredArray(arrayToPower, 3));
+
+        // не забывайте про частные случаи:
+        PrintArray(GetPoweredArray(new int[0], 1));
+        PrintArray(GetPoweredArray(new[] { 42 }, 0));
+    }
+    public static int[] GetPoweredArray(int[] arr, int power)
+    {
+        int[] array = arr;
+        for(int i = 0;i< arr.Length;i++)
+        {
+            array[i] = (int)Math.Pow(arr[i], power);
+        }
+        return array;
+    }
+
     #endregion
 }
