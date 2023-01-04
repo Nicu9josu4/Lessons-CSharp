@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Qa+MtVbBt9I/8AZUhLIzsad2ADRXLyh5DLwl4KqnRZFUxIwsfYIETdZ6MlQ4d1/Vm3I/X0oYI4kZnGNNh2d/qw==",
+  "dgSpecHash": "xD+mvcx0xU+6FJ6pmXiRvxKD9KTsMIJca9Q/641KAX9h0NOkXwbmae/ggXhP51kes2YWZec7g7tZwe3xe1Fd5w==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Asynchronous Programming\\91. Asynchronous Programming.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }

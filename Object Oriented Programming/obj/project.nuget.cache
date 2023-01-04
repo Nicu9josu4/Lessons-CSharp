@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2iofudT4iXpsxrvI37axkj2viMSz8g82Nlnmb25nALKheyTCe8rnX+5UpOQeUiJJjmuEB2Hy9wjdG2c/bg0FPQ==",
+  "dgSpecHash": "kycG66dmto8stiMWyloAw/o/wnoKZhtJn+5yMalort7wNiU/VWFWT0lV/X2qWS1JHHiOenQBdPTJU89v29uWEw==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Object Oriented Programming\\2. Object Oriented Programming.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }

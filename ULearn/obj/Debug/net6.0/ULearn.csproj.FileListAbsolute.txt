@@ -13,3 +13,5 @@ D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\refint\ULearn.dl
 D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ULearn.pdb
 D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ULearn.genruntimeconfig.cache
 D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ref\ULearn.dll
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\bin\Debug\net6.0\nunit.framework.dll
+D:\VisualStudio Projects\Lessons-CSharp\ULearn\obj\Debug\net6.0\ULearn.csproj.CopyComplete

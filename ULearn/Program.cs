@@ -608,7 +608,6 @@ class Program
     }
     private static string ApplyCommands(string[] commands)
     {
-        string Message = "";
         StringBuilder stringBuilder = new();
         
         foreach (string command in commands)

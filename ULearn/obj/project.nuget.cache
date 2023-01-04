@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HhSemYGxHxSU7CA2vlc/H4/PsRmWyQPiJpnR+LGAMP9QtwbXCbT7NRMoX0CSI2Cy+vymstqxeoXCr8ueKegYAg==",
+  "dgSpecHash": "D96KHJEdTw8JdXFmAp9Nn8YCYxahxE5R2Yxs0MLhGt5J0aepKoVLy1UjLSO+T6+Yis8VkIh78j4KQtX1r2OHbg==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\ULearn\\ULearn.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }

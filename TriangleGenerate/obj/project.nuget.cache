@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cRtpJzhHODwqjLf8WIFf4VjAe1skTpq3WMZ5KNkLa8lXN50+d8OdoTNdDamw4JmPFVAmEyrHYcpwEbEjciToLg==",
+  "dgSpecHash": "d09I35GzJnYa6kmU8K4GNoCMe1rRZiyKMZYuinBdpsHFB1T63PCxhrkEaef/KbNjT637sL8lakqGBhzOANkM3A==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\TriangleGenerate\\TriangleGenerate.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }

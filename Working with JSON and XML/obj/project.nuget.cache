@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "q8wal6QVoKQJpQWZQs8x9WR6DislRMs2z5FBvwB+rH/QTy+02RC76Sw/i0O/1XHJ25erpVWNynhZjuYAB+TjGA==",
+  "dgSpecHash": "NEETQWfSeuq4lSc+GNvWLD8UG2DnT+hQ2PUK6QxSM3gTC4L+67j4QU0EvbGzxOYX9lGmlIxuJ9N1378TQ0aMJA==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Working with JSON and XML\\95. Working with JSON and XML.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+  ],
   "logs": []
 }
