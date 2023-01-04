@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qh0RFD/z4Kq4/C0ttD5ZJWQyn8mhAfV83MsZt0U1Qavr8owEX9Wbmc3Mxso6ZJH1BruPu5vWdRPHgR09bhsrVQ==",
+  "dgSpecHash": "6tnRd1Snh+ic9+F1OAVhD6kRMb4YlStddW4r1vq3GdZUAGoGLc9JQwAE62hH2KZOw7ZDvDW7OgXxE8fl6Orxww==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Exception Handling\\3. Exception Handling.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

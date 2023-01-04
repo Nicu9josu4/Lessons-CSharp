@@ -1,0 +1,13 @@
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\bin\Debug\TableParser.exe.config
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\bin\Debug\TableParser.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\bin\Debug\TableParser.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\bin\Debug\nunit.framework.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\obj\Debug\table-parser.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\obj\Debug\table-parser.csproj.SuggestedBindingRedirects.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\obj\Debug\TableParser.ParserMainForm.resources
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\obj\Debug\TableParser.Properties.Resources.resources
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\obj\Debug\table-parser.csproj.GenerateResource.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\obj\Debug\table-parser.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\obj\Debug\table-parser.csproj.CopyComplete
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\obj\Debug\TableParser.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\TableParser.csproj\obj\Debug\TableParser.pdb

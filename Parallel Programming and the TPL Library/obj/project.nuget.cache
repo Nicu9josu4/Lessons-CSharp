@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zx2CpQzZTUDb5VfYGOapTQWukBoEhOii0TmBdIIhoT1rc8mHINVL7KO6OsnLgdIqFufbbWh1BKeRG4WbTl13PA==",
+  "dgSpecHash": "BB6kgWTvUhavHLXwG+D9SLUXTVbtqV9HTqPdMRKircalBrgsPcXRKfclPocyKjxaWXw2xP9OeWWdF61jI3m/1Q==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Parallel Programming and the TPL Library\\9. Parallel Programming and the TPL Library.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

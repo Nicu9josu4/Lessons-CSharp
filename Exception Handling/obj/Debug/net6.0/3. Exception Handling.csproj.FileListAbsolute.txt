@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\bin\Debug\net6.0\3. Exception Handling.exe
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\bin\Debug\net6.0\3. Exception Handling.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\bin\Debug\net6.0\3. Exception Handling.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\bin\Debug\net6.0\3. Exception Handling.dll
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\bin\Debug\net6.0\3. Exception Handling.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\obj\Debug\net6.0\3. Exception Handling.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\obj\Debug\net6.0\3. Exception Handling.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\obj\Debug\net6.0\3. Exception Handling.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\obj\Debug\net6.0\3. Exception Handling.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\obj\Debug\net6.0\3. Exception Handling.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\obj\Debug\net6.0\3. Exception Handling.dll
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\obj\Debug\net6.0\refint\3. Exception Handling.dll
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\obj\Debug\net6.0\3. Exception Handling.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\obj\Debug\net6.0\3. Exception Handling.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\Exception Handling\obj\Debug\net6.0\ref\3. Exception Handling.dll

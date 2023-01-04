@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\bin\Debug\net6.0\95. Working with JSON and XML.exe
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\bin\Debug\net6.0\95. Working with JSON and XML.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\bin\Debug\net6.0\95. Working with JSON and XML.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\bin\Debug\net6.0\95. Working with JSON and XML.dll
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\bin\Debug\net6.0\95. Working with JSON and XML.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\95. Working with JSON and XML.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\95. Working with JSON and XML.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\95. Working with JSON and XML.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\95. Working with JSON and XML.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\95. Working with JSON and XML.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\95. Working with JSON and XML.dll
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\refint\95. Working with JSON and XML.dll
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\95. Working with JSON and XML.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\95. Working with JSON and XML.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\ref\95. Working with JSON and XML.dll

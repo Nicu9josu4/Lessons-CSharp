@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\bin\Debug\net6.0\96. Processes and Application Domains.exe
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\bin\Debug\net6.0\96. Processes and Application Domains.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\bin\Debug\net6.0\96. Processes and Application Domains.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\bin\Debug\net6.0\96. Processes and Application Domains.dll
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\bin\Debug\net6.0\96. Processes and Application Domains.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\obj\Debug\net6.0\96. Processes and Application Domains.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\obj\Debug\net6.0\96. Processes and Application Domains.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\obj\Debug\net6.0\96. Processes and Application Domains.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\obj\Debug\net6.0\96. Processes and Application Domains.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\obj\Debug\net6.0\96. Processes and Application Domains.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\obj\Debug\net6.0\96. Processes and Application Domains.dll
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\obj\Debug\net6.0\refint\96. Processes and Application Domains.dll
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\obj\Debug\net6.0\96. Processes and Application Domains.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\obj\Debug\net6.0\96. Processes and Application Domains.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\Processes and Application Domains\obj\Debug\net6.0\ref\96. Processes and Application Domains.dll

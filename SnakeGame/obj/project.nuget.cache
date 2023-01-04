@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cc/8mAcyUKrdyfSMlV/KGATaY1pGHg2xe2qyT0xXthsk7FtY0vHWN2+GUVXc8kszEfQ6Wk77yvSkR+Ygupf2Rg==",
+  "dgSpecHash": "u94m3NLP7Ew4XXltN9hg2vEUct6ccM6S7k0f4rTgfct1H7JbIXYrHuR8oZRFOHm9zedbIM/BuVWXBKDvx/EEHA==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\SnakeGame\\SnakeGame.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

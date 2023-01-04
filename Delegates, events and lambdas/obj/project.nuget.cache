@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qcx1abYwmQ/ct2hZ4oOYOiCp0DyQqIQBB/B/KeDBnrRgWTRP66Q9AX9uM7QuYvWuvVuf3U7FzenIIS8l0HQCUw==",
+  "dgSpecHash": "j7udf1F+HBoaQRSDXv6nhaw0i/6ml+/SugPQTCacqBRLOgv2IXH2yrHovqO6JkfakN5rJqIijPVNIdHzo5IdCw==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Delegates, events and lambdas\\4. Delegates, events and lambdas.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\bin\Debug\net6.0\93. Dynamic Language Runtime.exe
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\bin\Debug\net6.0\93. Dynamic Language Runtime.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\bin\Debug\net6.0\93. Dynamic Language Runtime.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\bin\Debug\net6.0\93. Dynamic Language Runtime.dll
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\bin\Debug\net6.0\93. Dynamic Language Runtime.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\obj\Debug\net6.0\93. Dynamic Language Runtime.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\obj\Debug\net6.0\93. Dynamic Language Runtime.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\obj\Debug\net6.0\93. Dynamic Language Runtime.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\obj\Debug\net6.0\93. Dynamic Language Runtime.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\obj\Debug\net6.0\93. Dynamic Language Runtime.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\obj\Debug\net6.0\93. Dynamic Language Runtime.dll
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\obj\Debug\net6.0\refint\93. Dynamic Language Runtime.dll
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\obj\Debug\net6.0\93. Dynamic Language Runtime.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\obj\Debug\net6.0\93. Dynamic Language Runtime.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\Dynamic Language Runtime\obj\Debug\net6.0\ref\93. Dynamic Language Runtime.dll

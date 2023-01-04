@@ -13,3 +13,18 @@ D:\VisualStudio Projects\Fundamentals of Csharp Programming\Additional .NET Clas
 D:\VisualStudio Projects\Fundamentals of Csharp Programming\Additional .NET Classes and Structures\obj\Debug\net6.0\6. Additional .NET Classes and Structures.pdb
 D:\VisualStudio Projects\Fundamentals of Csharp Programming\Additional .NET Classes and Structures\obj\Debug\net6.0\6. Additional .NET Classes and Structures.genruntimeconfig.cache
 D:\VisualStudio Projects\Fundamentals of Csharp Programming\Additional .NET Classes and Structures\obj\Debug\net6.0\ref\6. Additional .NET Classes and Structures.dll
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\bin\Debug\net6.0\6. Additional .NET Classes and Structures.exe
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\bin\Debug\net6.0\6. Additional .NET Classes and Structures.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\bin\Debug\net6.0\6. Additional .NET Classes and Structures.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\bin\Debug\net6.0\6. Additional .NET Classes and Structures.dll
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\bin\Debug\net6.0\6. Additional .NET Classes and Structures.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\obj\Debug\net6.0\6. Additional .NET Classes and Structures.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\obj\Debug\net6.0\6. Additional .NET Classes and Structures.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\obj\Debug\net6.0\6. Additional .NET Classes and Structures.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\obj\Debug\net6.0\6. Additional .NET Classes and Structures.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\obj\Debug\net6.0\6. Additional .NET Classes and Structures.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\obj\Debug\net6.0\6. Additional .NET Classes and Structures.dll
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\obj\Debug\net6.0\refint\6. Additional .NET Classes and Structures.dll
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\obj\Debug\net6.0\6. Additional .NET Classes and Structures.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\obj\Debug\net6.0\6. Additional .NET Classes and Structures.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\Additional .NET Classes and Structures\obj\Debug\net6.0\ref\6. Additional .NET Classes and Structures.dll

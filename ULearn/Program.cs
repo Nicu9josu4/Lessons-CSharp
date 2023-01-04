@@ -17,12 +17,13 @@ Expr7. Найти вектор, параллельный прямой. Перп�
 Expr8. Дана прямая L и точка A. Найти точку пересечения прямой L с перпендикулярной ей прямой P, проходящей через точку A. Можете считать, что прямая задана либо двумя точками, либо коэффициентами уравнения прямой — как вам удобнее.
 */
 
-using System;
-using System.Text;
+using NUnit.Framework;
+using ULearn;
 
-class Program
+internal class Program
 {
     #region get minX
+
     //internal static void Main()
     //{
     //    Console.WriteLine(GetMinX(1, 2, 3) + " Final");
@@ -68,9 +69,9 @@ class Program
     //    }
     //    else return "Impossible";
 
-
     //}
-    #endregion
+
+    #endregion get minX
 
     #region Bisect year
 
@@ -92,7 +93,7 @@ class Program
     //    return true ? (year % 100 != 0 || year % 400 == 0) && year % 4 == 0 : false;
     //}
 
-    #endregion
+    #endregion Bisect year
 
     #region ChessGame
 
@@ -111,14 +112,14 @@ class Program
 
     //    public static bool IsCorrectMove(string from, string to)
     //    {
-
     //        var dx = Math.Abs(to[0] - from[0]); //смещение фигуры по горизонтали
     //        var dy = Math.Abs(to[1] - from[1]); //смещение фигуры по вертикали
     //        if (from == to) return false;
-    //        if (dx == 0 || dy == 0) return true; 
+    //        if (dx == 0 || dy == 0) return true;
     //        return dx == dy;
     //}
-    #endregion
+
+    #endregion ChessGame
 
     #region Midle of three
 
@@ -148,18 +149,19 @@ class Program
 
     //}
 
-    #endregion
+    #endregion Midle of three
 
     #region ShouldFire
+
     //public static void Main()
     //{
     //    Console.WriteLine("MyFunction------- boss-60 " + ShouldFire2(true, "boss", 60));
     //    Console.WriteLine("Standart Function boss-60 " + ShouldFire(true, "boss", 60) + " - true"); // true
     //    Console.WriteLine();
-    //    Console.WriteLine("MyFunction------- boss-1 " + ShouldFire2(true, "boss", 1)); /// true 
-    //    Console.WriteLine("Standart Function boss-1 " + ShouldFire(true, "boss", 1) + " - false"); // false 
+    //    Console.WriteLine("MyFunction------- boss-1 " + ShouldFire2(true, "boss", 1)); /// true
+    //    Console.WriteLine("Standart Function boss-1 " + ShouldFire(true, "boss", 1) + " - false"); // false
     //    Console.WriteLine();
-    //    Console.WriteLine("MyFunction------- Zombie-1 " + ShouldFire2(true, "Zombie", 1)); 
+    //    Console.WriteLine("MyFunction------- Zombie-1 " + ShouldFire2(true, "Zombie", 1));
     //    Console.WriteLine("Standart Function Zombie-1 " + ShouldFire(true, "Zombie", 1) + " - true"); // true
     //    Console.WriteLine();
     //    Console.WriteLine("MyFunction------- Zombie-111 " + ShouldFire2(true, "Zombie", 111));
@@ -201,15 +203,15 @@ class Program
     //    }
     //    return shouldFire;
     //}
-    #endregion
+
+    #endregion ShouldFire
 
     #region Codded message
 
     //internal static void Main()
     //{
-
-    //    /* 
-    //     *  Писать ХОРОШИЙ Код Трудно Но Ты НЕ Сдавайся Старайся Все Упрощать 
+    //    /*
+    //     *  Писать ХОРОШИЙ Код Трудно Но Ты НЕ Сдавайся Старайся Все Упрощать
     //     */
     //    List<string> lines = new()
     //    {
@@ -245,7 +247,6 @@ class Program
     //    }
     //    //foreach (var slov in slova.Split(' '))
     //    //{
-
     //    //}
     //    //Console.WriteLine(slova);
 
@@ -254,7 +255,7 @@ class Program
     //{
     //    string[] strings = lines.Split(' ');
     //    string gudSlova = "";
-    //    foreach(string str in strings) 
+    //    foreach(string str in strings)
     //    {
     //        foreach (char c in str)
     //        {
@@ -268,9 +269,10 @@ class Program
     //    return gudSlova;
     //}
 
-    #endregion
+    #endregion Codded message
 
     #region powerOfTwo
+
     //static void Main()
     //{
     //    Console.WriteLine(GetMinPowerOfTwoLargerThan(2)); // => 4
@@ -289,7 +291,7 @@ class Program
     //    return result;
     //}
 
-    #endregion
+    #endregion powerOfTwo
 
     #region RemoveStartSpace
 
@@ -315,9 +317,11 @@ class Program
     //    //return text[i..];
     //    return text.Trim();
     //}
-    #endregion
+
+    #endregion RemoveStartSpace
 
     #region FrameForText
+
     //public static void Main()
     //{
     //    WriteTextWithBorder("Menu:");
@@ -341,9 +345,11 @@ class Program
     //    Console.WriteLine($"| {text} |");
     //    Console.WriteLine(carcass);
     //}
-    #endregion
+
+    #endregion FrameForText
 
     #region ChessBoard
+
     //public static void Main()
     //{
     //    //WriteBoard(8);
@@ -365,9 +371,11 @@ class Program
     //    }
     //    Console.WriteLine();
     //}
-    #endregion
+
+    #endregion ChessBoard
 
     #region arrayOfEvenNumbers
+
     //internal static void Main()
     //{
     //    foreach(int number in GetFirstEvenNumbers(4))
@@ -381,9 +389,11 @@ class Program
     //    for (int i = 1; i <= count; i++) numbers[i - 1] = i * 2;
     //    return numbers;
     //}
-    #endregion
+
+    #endregion arrayOfEvenNumbers
 
     #region GetMaxIndex from array
+
     //internal static void Main()
     //{
     //    double[] array = { };
@@ -407,7 +417,8 @@ class Program
     //    return -1;
 
     //}
-    #endregion
+
+    #endregion GetMaxIndex from array
 
     #region itemToCount
 
@@ -425,9 +436,11 @@ class Program
     //    }
     //    return k;
     //}
-    #endregion
+
+    #endregion itemToCount
 
     #region ArrayInArray
+
     //internal static void Main()
     //{
     //    int[] array = { 1, 2, 5, 6, 4, 3, 5, 5, 5, 5 };
@@ -451,9 +464,11 @@ class Program
     //    }
     //    return j == subArray.Length;
     //}
-    #endregion
+
+    #endregion ArrayInArray
 
     #region TranslateSite
+
     //enum Suits
     //{
     //    Wands,
@@ -476,9 +491,11 @@ class Program
     //    //return strings[(int)suit];
 
     //}
-    #endregion
+
+    #endregion TranslateSite
 
     #region CheckIfIsNull
+
     //internal static void Main()
     //{
     //    Console.WriteLine(CheckFirstElement(null));
@@ -488,13 +505,15 @@ class Program
     //}
     //public static bool CheckFirstElement(int[] array)
     //{
-    //    //return array != null & array.Length != 0 & array[0] == 0; 
+    //    //return array != null & array.Length != 0 & array[0] == 0;
     //    return array != null && array.Length != 0 ? array[0] == 0 : false;
 
     //}
-    #endregion
+
+    #endregion CheckIfIsNull
 
     #region PoverOfArrays
+
     //public static void PrintArray(int[] array)
     //{
     //    foreach(var a in array)
@@ -533,9 +552,10 @@ class Program
     //    return array;
     //}
 
-    #endregion
+    #endregion PoverOfArrays
 
     #region CrossAndCircles
+
     //public enum Mark
     //{
     //    Empty,
@@ -553,8 +573,8 @@ class Program
     //public static void Main()
     //{
     //    Run("XXX OO. ...");     //XXX
-    //    Run("OXO XO. .XO");     //OO 
-    //    Run("OXO XOX OX.");     //  
+    //    Run("OXO XO. .XO");     //OO
+    //    Run("OXO XOX OX.");     //
     //    Run("XOX OXO OXO");
     //    Run("... ... ...");
     //    Run("XXX OOO ...");
@@ -597,39 +617,38 @@ class Program
     //    return crossWin && circleWin ? GameResult.Draw : crossWin && !circleWin ? GameResult.CrossWin : !crossWin && circleWin ?  GameResult.CircleWin : GameResult.Draw;
     //}
 
-
-    #endregion
+    #endregion CrossAndCircles
 
     #region ApplyCommands
-    internal static void Main()
-    {
-        string[] strings = { "push Привет! Это снова я! Пока!", "pop 5", "push Как твои успехи? Плохо?", "push qwertyuiop", "push 1234567890", "pop 26", "..." };
-        Console.WriteLine(ApplyCommands(strings));
-    }
-    private static string ApplyCommands(string[] commands)
-    {
-        StringBuilder stringBuilder = new();
-        
-        foreach (string command in commands)
-        {
-            //string comm = command[4..].Trim();
-            //if (command.Contains("push")) Message += command.Substring(5);
-            //if (command.Contains("pop")) Message = Message.Substring(0, Message.Length - Convert.ToInt32(command.Substring(4)));
 
-            
-            if (command.Contains("push")) stringBuilder.Append(command.AsSpan(5));
-            if (command.Contains("pop")) stringBuilder.Replace(stringBuilder.ToString(), stringBuilder.ToString().Substring(0, stringBuilder.Length - Convert.ToInt32(command[4..])));
+    //internal static void Main()
+    //{
+    //    string[] strings = { "push Привет! Это снова я! Пока!", "pop 5", "push Как твои успехи? Плохо?", "push qwertyuiop", "push 1234567890", "pop 26", "..." };
+    //    Console.WriteLine(ApplyCommands(strings));
+    //}
+    //private static string ApplyCommands(string[] commands)
+    //{
+    //    StringBuilder stringBuilder = new();
 
+    //    foreach (string command in commands)
+    //    {
+    //        //string comm = command[4..].Trim();
+    //        //if (command.Contains("push")) Message += command.Substring(5);
+    //        //if (command.Contains("pop")) Message = Message.Substring(0, Message.Length - Convert.ToInt32(command.Substring(4)));
 
-        }
-        return stringBuilder.ToString();
+    //        if (command.Contains("push")) stringBuilder.Append(command.AsSpan(5));
+    //        if (command.Contains("pop")) stringBuilder.Replace(stringBuilder.ToString(), stringBuilder.ToString().Substring(0, stringBuilder.Length - Convert.ToInt32(command[4..])));
 
-    }
+    //    }
+    //    return stringBuilder.ToString();
 
-    #endregion
+    //}
+
+    #endregion ApplyCommands
 
     #region Useful acquaintances
-    //public static Dictionary<string, List<string>> Diary = new() 
+
+    //public static Dictionary<string, List<string>> Diary = new()
     //{
     //    {  "Alexandru" , new List<string> { "sasha1995@sasha.ru", "alex99@mail.ru", "shurik2020@google.com" } },
     //    {  "Alexei" , new List<string> { "sasha1995@sasha.ru", "alex99@mail.ru", "shurik2020@google.com" } },
@@ -641,7 +660,6 @@ class Program
     //};
     //internal static void Main()
     //{
-
     //   var dic1 = OptimizeContacts(GetContacts("Al"));
     //   var dic2 = OptimizeContacts(GetContacts("Bes"));
 
@@ -663,7 +681,7 @@ class Program
     //internal static List<string> GetContacts(string abbreviature)
     //{
     //    List<string> Contacts = new();
-    //    //{ 
+    //    //{
     //    //    //"Alexandru",
     //    //    //"Alexei",
     //    //    //"AlexSamodelnii",
@@ -693,7 +711,7 @@ class Program
     //    return dictionary;
     //}
 
-    #endregion
+    #endregion Useful acquaintances
 
     #region Split and Join
 
@@ -707,7 +725,6 @@ class Program
 
     //public static List<Data> citiesPopulation = new()
     //{
-
     //};
     //public static void Main(string[] args)
     //{
@@ -720,5 +737,119 @@ class Program
     //    char[] regex = { ':', ';', ',', '.' };
     //    return text.Split(':');
     //}
-    #endregion
+
+    #endregion Split and Join
+
+    #region Tests
+
+    //internal static void Main()
+    //{
+    //    Tests.RunTests("text", new[] { "text" });
+    //}
+    //[TestFixture]
+    //public class Tests
+    //{
+    //    [TestCase("text", new[] { "text" })]
+    //    [TestCase("hello world", new[] { "hello", "world" })]
+    //    [TestCase("", new string[0])]
+    //    // Вставляйте сюда свои тесты
+    //    public static void RunTests(string input, string[] expectedOutput)
+    //    {
+    //        // Тело метода изменять не нужно
+    //        string[] output = input.Split(" ");
+    //        if (input == "") output = Array.Empty<string>();
+    //        Assert.AreEqual(expectedOutput, output);
+    //    }
+    //}
+
+    #endregion Tests
+
+    #region RecursiveOperation
+
+    //internal static void Main()
+    //{
+    //    WriteReversed(new[] { '1', '4', 'a' });
+    //}
+    //public static void WriteReversed(char[] items, int startIndex = 0)
+    //{
+    //    if (startIndex < items.Length)
+    //        // Выводим в обратном порядке все элементы с индексом больше startIndex
+    //        WriteReversed(items, startIndex + 1);
+    //    else if (startIndex >= items.Length) return;
+    //    // а потом выводим сам элемент startIndex
+    //    Console.Write(items[startIndex]);
+    //}
+
+    #endregion RecursiveOperation
+
+    #region MakePermutations
+
+    //public static void Main()
+    //{
+    //    TestOnSize(1);
+    //    TestOnSize(2);
+    //    TestOnSize(0);
+    //    TestOnSize(3);
+    //    TestOnSize(4);
+    //}
+
+    //static void TestOnSize(int size)
+    //{
+    //    var result = new List<int[]>();
+    //    MakePermutations(new int[size], 0, result);
+    //    foreach (var permutation in result)
+    //        WritePermutation(permutation);
+    //}
+    //static void WritePermutation(int[] permutation)
+    //{
+    //    var strings = new List<string>();
+    //    foreach (var i in permutation)
+    //        strings.Add(i.ToString());
+    //    Console.WriteLine(string.Join(" ", strings.ToArray()));
+    //}
+    //static void MakePermutations(int[] permutation, int position, List<int[]> result)
+    //{
+    //    if (position == permutation.Length)
+    //    {
+    //        Console.WriteLine(permutation);
+    //        result.Add(permutation);
+    //        return;
+    //    }
+    //    permutation[position] = 0;
+    //    MakePermutations(permutation, position+1, result);
+    //    permutation[position] = 1;
+    //    MakePermutations(permutation, position+1, result);
+    //    permutation[position] = 2;
+    //    MakePermutations(permutation, position+1, result);
+    //    permutation[position] = 3;
+    //    MakePermutations(permutation, position+1, result);
+    //    //else
+    //    //{
+    //    //    for (int i = 0; i < permutation.Length; i++)
+    //    //    {
+    //    //        var index = Array.IndexOf(permutation, i, 0, position);
+    //    //        //если i не встречается среди первых position элементов массива permutation, то index == -1
+    //    //        //иначе index — это номер позиции элемента i в массиве.
+    //    //        if (index == -1)
+    //    //        {
+    //    //            // если число i ещё не было использовано, то...
+    //    //            // доделать.
+
+    //    //        }
+    //    //    }
+    //    //}
+    //}
+
+    #endregion MakePermutations
+
+    #region BinarySearch
+
+    internal static void Main(string[] args)
+    {
+        var array = new long[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 14 };
+        Console.WriteLine(Tests.BinSearchLeftBorder(array, 8, -1, array.Length, 7));
+    }
+
+    #endregion BinarySearch
 }
+

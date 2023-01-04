@@ -13,3 +13,18 @@ D:\VisualStudio Projects\Fundamentals of Csharp Programming\Garbage Collection, 
 D:\VisualStudio Projects\Fundamentals of Csharp Programming\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.pdb
 D:\VisualStudio Projects\Fundamentals of Csharp Programming\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.genruntimeconfig.cache
 D:\VisualStudio Projects\Fundamentals of Csharp Programming\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\ref\94.Garbage Collection, Memory Management, and Pointers.dll
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\bin\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.exe
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\bin\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\bin\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\bin\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.dll
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\bin\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.dll
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\refint\94.Garbage Collection, Memory Management, and Pointers.dll
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\94.Garbage Collection, Memory Management, and Pointers.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\Garbage Collection, Memory Management, and Pointers\obj\Debug\net6.0\ref\94.Garbage Collection, Memory Management, and Pointers.dll

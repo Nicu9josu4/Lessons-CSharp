@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9JvrcUPScX5JUQnstpUMnoU40fHzfp9v1NjTgo2I09kZoxGNHjUJY0vp2b30ha0NlHa6RnN+g5t9kN8eKK5gVA==",
+  "dgSpecHash": "4mL/n2k0VcZTZMqb7JbXZ9crVblySvsLOrec6W26JJvP7kU0EGwT8lfSmrBbBjzt1G26kRrg9pd8mE2OPRU+1g==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Fundamentals of Csharp Programming\\0. Fundamentals of Csharp Programming.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lj21uHkCCgxl41TPoor8M6NO2L8Q2cboXRXaPyvFV3HI3qojKQVl8IkrfF4y3uA6CKCpG1WFR4un2F0jOlyw2A==",
+  "dgSpecHash": "7tR52xrveqRhSPvJX5pGMaz8UEzGjTA6NHSftJ6c4TmSoyl+WFCSkwnfL/O4JN6pcu8phSFazP0c5meY0M49Lg==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Additional .NET Classes and Structures\\6. Additional .NET Classes and Structures.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

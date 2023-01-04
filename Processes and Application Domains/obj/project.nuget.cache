@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X1HpxBeADAMGFMJ+x1BjBhJdj2636NcA5P/OUAJQa17GMqqtxl34M7crbfk7YEa3rmuC44+/p3QgcmlmPGnxeA==",
+  "dgSpecHash": "jQCPa2smpo2Sl9d2PlE82EnrWIKSD/950Ife9NEtVW6YwJEiyG0TJtSxQWOftaBLgdrAv+vSZwd1GBjquqVGWA==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Processes and Application Domains\\96. Processes and Application Domains.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

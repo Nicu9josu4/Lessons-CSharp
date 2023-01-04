@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o6AuF4JvAC02e/6Ut/PXOjjMZbzmqWBeWrTOfyHoXO1PPeOO5ElucoERo1YLYK7FgZNk3faKSPsisApNaUvI8w==",
+  "dgSpecHash": "Zxe+BZBDN+hBsUfPSwaPIAg3FQbfOc2lvnpawBowO99kNI2c4aaK+zslpcVxdGZrbxRYtvxc6FlWot2JaWIsaQ==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Interfaces\\5. Interfaces.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

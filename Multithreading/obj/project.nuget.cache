@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fr5DRh2eSuGPCKtf4RP/WyX44f84fU9XShafabn86zVcG1eQVjY5+qciHZROCBlbCoCRurjRGIcS5bh/AX7wOw==",
+  "dgSpecHash": "SfL5sLF/qpMDEwyrx9Ijn9ujWN+cLgixHwQQ6SQ0UB4bNWtpEzCz2mmKyXfYQUCXBTN+FNClXGHpeN3D707XlA==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Multithreading\\8. Multithreading.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

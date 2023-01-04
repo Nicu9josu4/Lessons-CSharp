@@ -1,12 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "D96KHJEdTw8JdXFmAp9Nn8YCYxahxE5R2Yxs0MLhGt5J0aepKoVLy1UjLSO+T6+Yis8VkIh78j4KQtX1r2OHbg==",
+  "dgSpecHash": "1QxFQg5zFJ44vEKaYnZJ0Sj74kbO5Ar4PM9Z/xrjl7hJADkqUgH/fGj5XkHbfvkp4+wENnQXgzw47GBNwqgDgQ==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\ULearn\\ULearn.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.codecoverage\\17.4.1\\microsoft.codecoverage.17.4.1.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.net.test.sdk\\17.4.1\\microsoft.net.test.sdk.17.4.1.nupkg.sha512",
     "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.4.1\\microsoft.testplatform.objectmodel.17.4.1.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.testplatform.testhost\\17.4.1\\microsoft.testplatform.testhost.17.4.1.nupkg.sha512",
     "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
+    "C:\\Users\\ijosu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\nunit3testadapter\\4.3.1\\nunit3testadapter.4.3.1.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
 }

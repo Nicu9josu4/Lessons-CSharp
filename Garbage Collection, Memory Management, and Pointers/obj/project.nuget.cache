@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "idg77km9vcMr9KdeEkuAQv27Qfsp/SozqyWqzj+Q3iOkZQ0NdkEK3A8xCS+mp5T3KTo3WLM4sX7vkQdnhC7XUg==",
+  "dgSpecHash": "nH3yFa9690RPxDgTYw6ow69gtSt6OMC6rV2G/SjDIqULzJsfto3eyPRLfTbX7lKCqTzelXrgaf7pwMHBLsa9hQ==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Garbage Collection, Memory Management, and Pointers\\94.Garbage Collection, Memory Management, and Pointers.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\ijosu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\ijosu\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

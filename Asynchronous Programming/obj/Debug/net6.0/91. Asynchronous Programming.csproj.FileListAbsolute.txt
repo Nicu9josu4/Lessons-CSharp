@@ -13,3 +13,18 @@ D:\VisualStudio Projects\Fundamentals of Csharp Programming\Asynchronous Program
 D:\VisualStudio Projects\Fundamentals of Csharp Programming\Asynchronous Programming\obj\Debug\net6.0\91. Asynchronous Programming.pdb
 D:\VisualStudio Projects\Fundamentals of Csharp Programming\Asynchronous Programming\obj\Debug\net6.0\91. Asynchronous Programming.genruntimeconfig.cache
 D:\VisualStudio Projects\Fundamentals of Csharp Programming\Asynchronous Programming\obj\Debug\net6.0\ref\91. Asynchronous Programming.dll
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\bin\Debug\net6.0\91. Asynchronous Programming.exe
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\bin\Debug\net6.0\91. Asynchronous Programming.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\bin\Debug\net6.0\91. Asynchronous Programming.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\bin\Debug\net6.0\91. Asynchronous Programming.dll
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\bin\Debug\net6.0\91. Asynchronous Programming.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\obj\Debug\net6.0\91. Asynchronous Programming.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\obj\Debug\net6.0\91. Asynchronous Programming.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\obj\Debug\net6.0\91. Asynchronous Programming.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\obj\Debug\net6.0\91. Asynchronous Programming.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\obj\Debug\net6.0\91. Asynchronous Programming.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\obj\Debug\net6.0\91. Asynchronous Programming.dll
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\obj\Debug\net6.0\refint\91. Asynchronous Programming.dll
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\obj\Debug\net6.0\91. Asynchronous Programming.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\obj\Debug\net6.0\91. Asynchronous Programming.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\Asynchronous Programming\obj\Debug\net6.0\ref\91. Asynchronous Programming.dll
