@@ -811,45 +811,81 @@ internal class Program
     //{
     //    if (position == permutation.Length)
     //    {
-    //        Console.WriteLine(permutation);
-    //        result.Add(permutation);
+    //        //Console.WriteLine(permutation);
+    //        var tempArray = new int[permutation.Length];
+    //        for (int i = 0; i<permutation.Length; i++)
+    //        {
+    //            tempArray[i] = permutation[i];
+    //            //if(i==permutation.Length - 1) Console.Write(permutation[i]);
+    //            //else Console.Write(permutation[i] + " ");
+    //        }
+    //        result.Add(tempArray);
+
+    //        //foreach (var i in permutation)
+    //        //{
+    //        //    Console.Write(i + " ");
+    //        //}
+    //        Console.WriteLine();
     //        return;
     //    }
-    //    permutation[position] = 0;
-    //    MakePermutations(permutation, position+1, result);
-    //    permutation[position] = 1;
-    //    MakePermutations(permutation, position+1, result);
-    //    permutation[position] = 2;
-    //    MakePermutations(permutation, position+1, result);
-    //    permutation[position] = 3;
-    //    MakePermutations(permutation, position+1, result);
-    //    //else
-    //    //{
-    //    //    for (int i = 0; i < permutation.Length; i++)
-    //    //    {
-    //    //        var index = Array.IndexOf(permutation, i, 0, position);
-    //    //        //если i не встречается среди первых position элементов массива permutation, то index == -1
-    //    //        //иначе index — это номер позиции элемента i в массиве.
-    //    //        if (index == -1)
-    //    //        {
-    //    //            // если число i ещё не было использовано, то...
-    //    //            // доделать.
+    //    else
+    //    {
+    //        for (int i = 0; i < permutation.Length; i++)
+    //        {
+    //            //var index = Array.IndexOf(permutation, 0, i, position);
+    //            bool found = false;
+    //            for(int j = 0; j< position; j++)
+    //                if (permutation[j] == i)
+    //                {
+    //                    found = true;
+    //                    break;
+    //                }
+    //            if (found)
+    //                continue;
+    //            permutation[position] = i;
+    //            MakePermutations(permutation, position + 1, result);
 
-    //    //        }
-    //    //    }
-    //    //}
+
+
+    //        }
+    //    }
+    //    //permutation[position] = 0;
+    //    //MakePermutations(permutation, position + 1, result);
+    //    //permutation[position] = 1;
+    //    //MakePermutations(permutation, position + 1, result);
+    //    //permutation[position] = 2;
+    //    //MakePermutations(permutation, position + 1, result);
+    //    //permutation[position] = 3;
+    //    //MakePermutations(permutation, position + 1, result);
+
     //}
 
     #endregion MakePermutations
 
     #region BinarySearch
 
-    internal static void Main(string[] args)
-    {
-        var array = new long[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 14 };
-        Console.WriteLine(Tests.BinSearchLeftBorder(array, 8, -1, array.Length, 7));
-    }
+    //internal static void Main(string[] args)
+    //{
+    //    var array = new long[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 14 };
+    //    Console.WriteLine(Tests.BinSearchLeftBorder(array, 8, -1, array.Length, 7));
+    //}
 
     #endregion BinarySearch
+
+    #region CalcMethod Recursion
+    //static int Calc(int n)
+    //{
+    //    int res = 1;
+    //    if (n > 1)
+    //        res = Calc(n - 1) + Calc(n - 2);
+    //    return res;
+    //}
+
+    //public static void Main()
+    //{
+    //    Console.WriteLine(6/10);
+    //    //Console.WriteLine(Calc(3));
+    //}
+    #endregion
 }
 
