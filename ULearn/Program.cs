@@ -784,81 +784,81 @@ internal class Program
 
     #region MakePermutations
 
-    //public static void Main()
-    //{
-    //    TestOnSize(1);
-    //    TestOnSize(2);
-    //    TestOnSize(0);
-    //    TestOnSize(3);
-    //    TestOnSize(4);
-    //}
+    public static void Main()
+    {
+        //TestOnSize(1);
+        //TestOnSize(2);
+        //TestOnSize(0);
+        //TestOnSize(3);
+        TestOnSize(4);
+    }
 
-    //static void TestOnSize(int size)
-    //{
-    //    var result = new List<int[]>();
-    //    MakePermutations(new int[size], 0, result);
-    //    foreach (var permutation in result)
-    //        WritePermutation(permutation);
-    //}
-    //static void WritePermutation(int[] permutation)
-    //{
-    //    var strings = new List<string>();
-    //    foreach (var i in permutation)
-    //        strings.Add(i.ToString());
-    //    Console.WriteLine(string.Join(" ", strings.ToArray()));
-    //}
-    //static void MakePermutations(int[] permutation, int position, List<int[]> result)
-    //{
-    //    if (position == permutation.Length)
-    //    {
-    //        //Console.WriteLine(permutation);
-    //        var tempArray = new int[permutation.Length];
-    //        for (int i = 0; i<permutation.Length; i++)
-    //        {
-    //            tempArray[i] = permutation[i];
-    //            //if(i==permutation.Length - 1) Console.Write(permutation[i]);
-    //            //else Console.Write(permutation[i] + " ");
-    //        }
-    //        result.Add(tempArray);
+    static void TestOnSize(int size)
+    {
+        var result = new List<int[]>();
+        MakePermutations(new int[size], 0, result);
+        foreach (var permutation in result)
+            WritePermutation(permutation);
+    }
+    static void WritePermutation(int[] permutation)
+    {
+        var strings = new List<string>();
+        foreach (var i in permutation)
+            strings.Add(i.ToString());
+        Console.WriteLine(string.Join(" ", strings.ToArray()));
+    }
+    static void MakePermutations(int[] permutation, int position, List<int[]> result)
+    {
+        if (position == permutation.Length)
+        {
+            //Console.WriteLine(permutation);
+            var tempArray = new int[permutation.Length];
+            for (int i = 0; i < permutation.Length; i++)
+            {
+                tempArray[i] = permutation[i];
+                //if(i==permutation.Length - 1) Console.Write(permutation[i]);
+                //else Console.Write(permutation[i] + " ");
+            }
+            result.Add(tempArray);
 
-    //        //foreach (var i in permutation)
-    //        //{
-    //        //    Console.Write(i + " ");
-    //        //}
-    //        Console.WriteLine();
-    //        return;
-    //    }
-    //    else
-    //    {
-    //        for (int i = 0; i < permutation.Length; i++)
-    //        {
-    //            //var index = Array.IndexOf(permutation, 0, i, position);
-    //            bool found = false;
-    //            for(int j = 0; j< position; j++)
-    //                if (permutation[j] == i)
-    //                {
-    //                    found = true;
-    //                    break;
-    //                }
-    //            if (found)
-    //                continue;
-    //            permutation[position] = i;
-    //            MakePermutations(permutation, position + 1, result);
+            //foreach (var i in permutation)
+            //{
+            //    Console.Write(i + " ");
+            //}
+            Console.WriteLine();
+            return;
+        }
+        else
+        {
+            for (int i = 0; i < permutation.Length; i++)
+            {
+                //var index = Array.IndexOf(permutation, 0, i, position);
+                bool found = false;
+                for (int j = 0; j < position; j++)
+                    if (permutation[j] == i)
+                    {
+                        found = true;
+                        break;
+                    }
+                if (found)
+                    continue;
+                permutation[position] = i;
+                MakePermutations(permutation, position + 1, result);
 
 
 
-    //        }
-    //    }
-    //    //permutation[position] = 0;
-    //    //MakePermutations(permutation, position + 1, result);
-    //    //permutation[position] = 1;
-    //    //MakePermutations(permutation, position + 1, result);
-    //    //permutation[position] = 2;
-    //    //MakePermutations(permutation, position + 1, result);
-    //    //permutation[position] = 3;
-    //    //MakePermutations(permutation, position + 1, result);
+            }
+        }
+        //permutation[position] = 0;
+        //MakePermutations(permutation, position + 1, result);
+        //permutation[position] = 1;
+        //MakePermutations(permutation, position + 1, result);
+        //permutation[position] = 2;
+        //MakePermutations(permutation, position + 1, result);
+        //permutation[position] = 3;
+        //MakePermutations(permutation, position + 1, result);
 
-    //}
+    }
 
     #endregion MakePermutations
 
