@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "96. Processes and Application Domains/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/96. Processes and Application Domains.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/96. Processes and Application Domains.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "96. Processes and Application Domains/1.0.0": {
+      "type": "project",
+      "path": "../Processes and Application Domains/96. Processes and Application Domains.csproj",
+      "msbuildProject": "../Processes and Application Domains/96. Processes and Application Domains.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "96. Processes and Application Domains >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ijosu\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\VisualStudio Projects\\Lessons-CSharp\\Processes and Application Domains\\96. Processes and Application Domains.csproj": {
+              "projectPath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Processes and Application Domains\\96. Processes and Application Domains.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

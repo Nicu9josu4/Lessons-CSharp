@@ -968,22 +968,34 @@ internal class Program
     #endregion
 
     #region Create a extension method for string
+    //public static class StringExtension
+    //{
+    //    public static int ToInt(this string str)
+    //    {
+    //        return Convert.ToInt32(str);
+    //    }
+    //}
 
+    //public static class Point
+    //{
+
+    //}
     #endregion
-}
 
 
-public static class StringExtension
-{
-    public static int ToInt(this string str)
+    internal static void Main()
     {
-        return Convert.ToInt32(str);
+        int b = 99,c = 10;
+        var a = (int b, int c) => { return b / c; };
+        var z = () => { return b / c; };
+        Console.WriteLine(a(b,c));
+
+        var a1 = delegate() { return 12; };
+        Console.WriteLine(a1());
     }
 }
 
-public static class Point
-{
 
-}
+
 
 

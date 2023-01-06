@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Processes and Application Domains\96. Processes and Application Domains.csproj" />
+  </ItemGroup>
+
 </Project>
