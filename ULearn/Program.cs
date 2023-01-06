@@ -18,6 +18,7 @@ Expr8. Дана прямая L и точка A. Найти точку перес
 */
 
 using NUnit.Framework;
+using NUnit.Framework.Interfaces;
 using ULearn;
 
 internal class Program
@@ -784,81 +785,81 @@ internal class Program
 
     #region MakePermutations
 
-    public static void Main()
-    {
-        //TestOnSize(1);
-        //TestOnSize(2);
-        //TestOnSize(0);
-        //TestOnSize(3);
-        TestOnSize(4);
-    }
+    //public static void Main()
+    //{
+    //    //TestOnSize(1);
+    //    //TestOnSize(2);
+    //    //TestOnSize(0);
+    //    //TestOnSize(3);
+    //    TestOnSize(4);
+    //}
 
-    static void TestOnSize(int size)
-    {
-        var result = new List<int[]>();
-        MakePermutations(new int[size], 0, result);
-        foreach (var permutation in result)
-            WritePermutation(permutation);
-    }
-    static void WritePermutation(int[] permutation)
-    {
-        var strings = new List<string>();
-        foreach (var i in permutation)
-            strings.Add(i.ToString());
-        Console.WriteLine(string.Join(" ", strings.ToArray()));
-    }
-    static void MakePermutations(int[] permutation, int position, List<int[]> result)
-    {
-        if (position == permutation.Length)
-        {
-            //Console.WriteLine(permutation);
-            var tempArray = new int[permutation.Length];
-            for (int i = 0; i < permutation.Length; i++)
-            {
-                tempArray[i] = permutation[i];
-                //if(i==permutation.Length - 1) Console.Write(permutation[i]);
-                //else Console.Write(permutation[i] + " ");
-            }
-            result.Add(tempArray);
+    //static void TestOnSize(int size)
+    //{
+    //    var result = new List<int[]>();
+    //    MakePermutations(new int[size], 0, result);
+    //    foreach (var permutation in result)
+    //        WritePermutation(permutation);
+    //}
+    //static void WritePermutation(int[] permutation)
+    //{
+    //    var strings = new List<string>();
+    //    foreach (var i in permutation)
+    //        strings.Add(i.ToString());
+    //    Console.WriteLine(string.Join(" ", strings.ToArray()));
+    //}
+    //static void MakePermutations(int[] permutation, int position, List<int[]> result)
+    //{
+    //    if (position == permutation.Length)
+    //    {
+    //        //Console.WriteLine(permutation);
+    //        var tempArray = new int[permutation.Length];
+    //        for (int i = 0; i < permutation.Length; i++)
+    //        {
+    //            tempArray[i] = permutation[i];
+    //            //if(i==permutation.Length - 1) Console.Write(permutation[i]);
+    //            //else Console.Write(permutation[i] + " ");
+    //        }
+    //        result.Add(tempArray);
 
-            //foreach (var i in permutation)
-            //{
-            //    Console.Write(i + " ");
-            //}
-            Console.WriteLine();
-            return;
-        }
-        else
-        {
-            for (int i = 0; i < permutation.Length; i++)
-            {
-                //var index = Array.IndexOf(permutation, 0, i, position);
-                bool found = false;
-                for (int j = 0; j < position; j++)
-                    if (permutation[j] == i)
-                    {
-                        found = true;
-                        break;
-                    }
-                if (found)
-                    continue;
-                permutation[position] = i;
-                MakePermutations(permutation, position + 1, result);
+    //        //foreach (var i in permutation)
+    //        //{
+    //        //    Console.Write(i + " ");
+    //        //}
+    //        Console.WriteLine();
+    //        return;
+    //    }
+    //    else
+    //    {
+    //        for (int i = 0; i < permutation.Length; i++)
+    //        {
+    //            //var index = Array.IndexOf(permutation, 0, i, position);
+    //            bool found = false;
+    //            for (int j = 0; j < position; j++)
+    //                if (permutation[j] == i)
+    //                {
+    //                    found = true;
+    //                    break;
+    //                }
+    //            if (found)
+    //                continue;
+    //            permutation[position] = i;
+    //            MakePermutations(permutation, position + 1, result);
 
 
 
-            }
-        }
-        //permutation[position] = 0;
-        //MakePermutations(permutation, position + 1, result);
-        //permutation[position] = 1;
-        //MakePermutations(permutation, position + 1, result);
-        //permutation[position] = 2;
-        //MakePermutations(permutation, position + 1, result);
-        //permutation[position] = 3;
-        //MakePermutations(permutation, position + 1, result);
+    //        }
+    //    }
+    //    //permutation[position] = 0;
+    //    //MakePermutations(permutation, position + 1, result);
+    //    //permutation[position] = 1;
+    //    //MakePermutations(permutation, position + 1, result);
+    //    //permutation[position] = 2;
+    //    //MakePermutations(permutation, position + 1, result);
+    //    //permutation[position] = 3;
+    //    //MakePermutations(permutation, position + 1, result);
 
-    }
+    //}
 
     #endregion MakePermutations
 
@@ -887,5 +888,102 @@ internal class Program
     //    //Console.WriteLine(Calc(3));
     //}
     #endregion
+
+    #region BubleSortRange
+    //internal static void Main()
+    //{
+    //    int[] array = { 4, 2, 3, 1}; // 1234
+    //    foreach (var element in array)
+    //    {
+    //        Console.Write(element + " ");
+    //    }
+    //    Console.WriteLine();
+    //    BubbleSortRange(array, 0, 3);
+    //    foreach(var element in array)
+    //    {
+    //        Console.Write(element + " ");
+    //    }
+    //}
+    //public static void BubbleSortRange(int[] array, int left, int right)
+    //{
+    //    for (int i = 0; i <= right; i++)
+    //        for (int j = left; j < right; j++)
+    //            if (array[j] > array[j + 1])
+    //            {
+    //                (array[j], array[j + 1]) = (array[j + 1], array[j]);
+    //            }
+    //}
+    #endregion
+
+    #region Create a class with menu
+    //public class MenuItem
+    //{
+    //    public string Caption { get; set; }
+    //    public string HotKey { get; set; }
+    //    public MenuItem[] Items { get; set; }
+    //    public static MenuItem[] GenerateMenu()
+    //    {
+    //        return new[] {
+
+    //       new MenuItem {
+    //           Caption = "File",
+    //           HotKey = "F",
+    //           Items = new MenuItem[]{
+    //               new MenuItem {
+    //                   Caption = "New",
+    //                   HotKey = "N"},
+    //               new MenuItem {
+    //                   Caption = "Save",
+    //                   HotKey = "S"
+    //               }
+    //           }
+    //       },
+    //       new MenuItem {
+    //           Caption = "Edit",
+    //           HotKey = "E",
+    //           Items = new MenuItem[]{
+    //               new MenuItem {
+    //                   Caption = "Copy",
+    //                   HotKey = "C"},
+    //               new MenuItem {
+    //                   Caption = "Paste",
+    //                   HotKey = "V"
+    //               }
+    //           }
+    //       },
+    //    };
+    //    }
+
+    //}
+    ///*
+    //На верхнем уровне должно находиться два пункта: File (F) и Edit (E).
+
+    //Меню File должно содержать команды New (N), Save (S).
+
+    //Меню Edit (E) должно содержать команды Copy (C) и Paste (V).
+
+    // */
+
+
+    #endregion
+
+    #region Create a extension method for string
+
+    #endregion
 }
+
+
+public static class StringExtension
+{
+    public static int ToInt(this string str)
+    {
+        return Convert.ToInt32(str);
+    }
+}
+
+public static class Point
+{
+
+}
+
 
