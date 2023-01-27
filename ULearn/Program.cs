@@ -17,9 +17,7 @@ Expr7. Найти вектор, параллельный прямой. Перп�
 Expr8. Дана прямая L и точка A. Найти точку пересечения прямой L с перпендикулярной ей прямой P, проходящей через точку A. Можете считать, что прямая задана либо двумя точками, либо коэффициентами уравнения прямой — как вам удобнее.
 */
 
-using NUnit.Framework;
-using NUnit.Framework.Interfaces;
-using ULearn;
+
 
 internal class Program
 {
@@ -982,17 +980,355 @@ internal class Program
     //}
     #endregion
 
+    #region Combine Arrays
 
-    internal static void Main()
+    //public static void Main()
+    //{
+    //    var ints = new[] { 1, 2 };
+    //    var strings = new[] { "A", "B" };
+    //    Print(Combine(ints, ints));
+    //    Print(Combine(ints, ints, ints));
+    //    Print(Combine(ints));
+    //    Print(Combine());
+    //    Print(Combine(strings, strings));
+    //    Print(Combine(ints, strings));
+    //}
+
+    static void Print(Array array)
     {
-        int b = 99,c = 10;
-        var a = (int b, int c) => { return b / c; };
-        var z = () => { return b / c; };
-        Console.WriteLine(a(b,c));
-
-        var a1 = delegate() { return 12; };
-        Console.WriteLine(a1());
+        if (array == null)
+        {
+            Console.WriteLine("null");
+            return;
+        }
+        for (int i = 0; i < array.Length; i++)
+            Console.Write("{0} ", array.GetValue(i));
+        Console.WriteLine();
     }
+
+    static Array Combine(params Array[] arrays)
+    {
+        int k = 0;
+        if (arrays != null) 
+        {
+            int length = 0;
+            foreach (var array in arrays) length += array.Length;
+            Type type = typeof(object);
+            var arr = Array.CreateInstance(type, length);
+            foreach (var array in arrays)
+            {
+                for(int i = 0; i < array.Length && k < length; i++)
+                {
+                    arr.SetValue(array.GetValue(i), k++);
+                }
+            }
+            return arr;
+        }
+        return null;
+        
+    }
+
+    #endregion
+
+    #region Middle of three
+
+    //public static void Main()
+    //{
+    //    Console.WriteLine(MiddleOfThree(2, 5, 4));
+    //    Console.WriteLine(MiddleOfThree(3, 1, 2));
+    //    Console.WriteLine(MiddleOfThree(3, 5, 9));
+    //    Console.WriteLine(MiddleOfThree("B", "Z", "A"));
+    //    Console.WriteLine(MiddleOfThree(3.45, 2.67, 3.12));
+    //}
+
+    public static IComparable MiddleOfThree(IComparable a, IComparable b, IComparable c)
+    {
+        if (b.CompareTo(a) < 0 && c.CompareTo(a) > 0 || b.CompareTo(a) > 0 && c.CompareTo(a) < 0) return a;
+        else if (a.CompareTo(b) < 0 && c.CompareTo(b) > 0 || a.CompareTo(b) > 0 && c.CompareTo(b) < 0) return b;
+        else if (a.CompareTo(c) < 0 && b.CompareTo(c) > 0 || a.CompareTo(c) > 0 && b.CompareTo(c) < 0) return c;
+        else return null;
+    }
+
+    #endregion
+
+    #region Search for minim
+
+    //public static void Main()
+    //{
+    //    Console.WriteLine(Min(new[] { 3, 6, 2, 4 }));
+    //    Console.WriteLine(Min(new[] { "B", "A", "C", "D" }));
+    //    Console.WriteLine(Min(new[] { '4', '2', '7' }));
+    //}
+
+    //internal static object Min(Array array)
+    //{
+    //    var min = array.GetValue(0);
+    //    foreach(IComparable item in array)
+    //        if (item.CompareTo(min) < 0) min = item;
+    //    return min;
+    //}
+
+    #endregion
+
+    #region Compare books
+
+    //class Book : IComparable
+    //{
+    //    public string Title;
+    //    public int Theme;
+    //    public int CompareTo(object? obj)
+    //    {
+    //        var book = obj as Book;
+    //        if (Theme.CompareTo(book.Theme) == 0)
+    //            return Title.CompareTo(book.Title);
+    //        else return Theme.CompareTo(book.Theme);
+    //    }
+    //}
+
+    #endregion
+
+    #region Clockwise Comparer
+
+    //public class Point
+    //{
+    //    public double X;
+    //    public double Y;
+    //}
+    //private static void Main()
+    //{
+    //    var array = new[]
+    //    {
+    //    new Point { X = 1, Y = 0 },
+    //    new Point { X = -1, Y = 0 },
+    //    new Point { X = 0, Y = 1 },
+    //    new Point { X = 0, Y = -1 },
+    //    new Point { X = 0.01, Y = 1 }
+    //};
+    //    Array.Sort(array, new ClockwiseComparer());
+    //    foreach (Point e in array)
+    //        Console.WriteLine("{0} {1}", e.X, e.Y);
+    //}
+
+
+
+    //public class ClockwiseComparer : IComparer
+    //{
+    //    public int Compare(object x, object y)
+    //    {
+    //        double atan = Math.Atan2((double)x, (double)y);
+    //        return (int)atan;
+    //    }
+    //}
+
+    #endregion
+
+    #region ToSring for Triangle class
+
+    //static void Main()
+    //{
+    //    var triangle = new Triangle
+    //    {
+    //        A = new Point { X = 0, Y = 0 },
+    //        B = new Point { X = 1, Y = 2 },
+    //        C = new Point { X = 3, Y = 2 }
+    //    };
+    //    Console.WriteLine(triangle.ToString());
+    //}
+
+    //public class Point
+    //{
+    //    public double X;
+    //    public double Y;
+    //    public override string ToString()
+    //    {
+    //        return string.Format("{0} {1}", X, Y);
+    //    }
+    //}
+    //public class Triangle
+    //{
+    //    public Point A;
+    //    public Point B;
+    //    public Point C;
+    //    public override string ToString()
+    //    {
+    //        return $"({A}) ({B}) ({C})";
+    //    }
+    //}
+
+
+    #endregion
+
+    #region Vector
+
+    //public static void Main()
+    //{
+    //    Vector vector = new Vector(3, 4);
+    //    Console.WriteLine(vector.ToString());
+
+    //    vector.X = 0;
+    //    vector.Y = -1;
+    //    Console.WriteLine(vector.ToString());
+
+    //    vector = new Vector(9, 40);
+    //    Console.WriteLine(vector.ToString());
+
+    //    Console.WriteLine(new Vector(0, 0).ToString());
+    //}
+
+    //public class Vector
+    //{
+    //    public double X;
+    //    public double Y;
+    //    private double length;
+    //    public double Length { get { return length; } }
+
+    //    // добавьте конструктор!
+    //    public Vector()
+    //    {
+
+    //    }
+    //    public Vector(double X, double Y)
+    //    {
+    //        this.X = X;
+    //        this.Y = Y;
+    //        length = Math.Sqrt(X * X + Y * Y);
+    //    }
+    //    public override string ToString()
+    //    {
+    //        return string.Format("({0}, {1}) with length: {2}", X, Y, Length);
+    //    }
+    //}
+
+    #endregion
+
+    #region ZipSum
+
+    //    public static void Main()
+    //    {
+    //        Console.WriteLine(string.Join(" ", ZipSum(new[] { 1 }, new[] { 0 })));
+    //        Console.WriteLine(string.Join(" ", ZipSum(new[] { 1, 2 }, new[] { 1, 2 })));
+    //        Console.WriteLine(string.Join(" ", ZipSum(new int[0], new int[0])));
+    //        Console.WriteLine(string.Join(" ", ZipSum(new[] { 1, 3, 5 }, new[] { 5, 3, -1 })));
+    //    }
+
+    //    private static IEnumerable<int> ZipSum(IEnumerable<int> first, IEnumerable<int> second)
+    //    {
+    //        var e1 = first.GetEnumerator();
+    //        var e2 = second.GetEnumerator();
+    //        while (e1.MoveNext() && e2.MoveNext())
+    //        yield return e1.Current + e2.Current;
+    //}
+
+    #endregion
+
+    #region Delegates
+
+    //static void Main()
+    //{
+    //    Run(AskUser, Console.WriteLine);
+    //}
+
+    //static void Run(TryGet<string, int> askUser, Action<string> tellUser)
+    //{
+    //    int age;
+    //    if (askUser("What is your age?", tellUser, out age))
+    //        tellUser("Age: " + age);
+    //}
+
+    //static bool AskUser(string questionText, Action<string> tellUser, out int age)
+    //{
+    //    tellUser(questionText);
+    //    var answer = Console.ReadLine();
+    //    return int.TryParse(answer, out age);
+    //}
+    //static delegate bool TryGet<string, int> (string str, Action<string> act, int ints);
+
+    #endregion
+
+    #region Lambda expresions
+
+    //private static void Main()
+    //{
+    //    Assert.AreEqual(0, zero());
+
+    //    Assert.AreEqual("42", toString(42));
+    //    Assert.AreEqual("123", toString(123));
+
+    //    Assert.AreEqual(3.14, add(1.1, 2.04));
+    //    Assert.AreEqual(0, add(-1, 1));
+
+    //    print("passed!");
+    //}
+
+    //private static readonly Func<int> zero = () => 0;
+    //private static readonly Func<int, string> toString = (int number) => $"{number}";
+    //private static readonly Func<double, double, double> add = (double x, double y) => x + y;
+    //private static readonly Action<string> print = (string message) => Console.WriteLine(message);
+
+    #endregion
+
+    #region Lambda expresion v.2
+
+    //internal static void Main()
+    //{
+    //    Func<int, string> toString = x => x.ToString("X"); // hex
+    //    Func<double, int> round = x => (int)Math.Round(x);
+    //    var f1 = Combine(round, toString);
+    //    Console.WriteLine(f1(3.14)); // 3
+    //    Console.WriteLine(f1(10.9)); // B 
+
+    //    Func<int, int> doubleValue = x => 2 * x;
+    //    Func<int, int> minusOne = x => x - 1;
+    //    var f2 = Combine(minusOne, doubleValue);
+    //    Console.WriteLine(f2(2)); // 2
+    //    Console.WriteLine(f2(5)); // 8
+    //}
+
+    //static Func<T1, T3> Combine<T1, T2, T3>(Func<T1, T2> f, Func<T2, T3> g)
+    //{
+    //    return f
+    //}
+    #endregion
+
+    #region Timer with Tick
+
+    //public static void Main()
+    //{
+    //    var timer = new Timer();
+    //    timer.Interval = 1000;
+    //    timer.Tick = () => Console.WriteLine("Tick!");
+    //    timer.Start();
+    //}
+
+    //public class Timer
+    //{
+    //    public int Interval;
+    //    public Action Tick;
+
+    //    public void Start()
+    //    {
+    //        while (true)
+    //        {
+    //            Console.Write("-");
+    //            if (Tick != null) // если в Tick ничего не присвоить и вызвать, будет NullReferenceException
+    //                Tick();
+    //            Thread.Sleep(Interval); // ждет заданное время
+    //        }
+    //    }
+    //}
+
+    #endregion
+
+    //internal static void Main()
+    //{
+    //    int b = 99,c = 10;
+    //    var a = (int b, int c) => { return b / c; };
+    //    var z = () => { return b / c; };
+    //    Console.WriteLine(a(b,c));
+
+    //    var a1 = delegate() { return 12; };
+    //    Console.WriteLine(a1());
+    //}
 }
 
 

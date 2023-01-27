@@ -8,4 +8,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Func-Action-Predicate.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Func-Action-Predicate.cs" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,17 @@
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\bin\Debug\Images\Digger.png
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\bin\Debug\Images\Gold.png
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\bin\Debug\Images\Monster.png
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\bin\Debug\Images\Sack.png
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\bin\Debug\Images\Terrain.png
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\bin\Debug\11-digger.exe.config
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\bin\Debug\11-digger.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\bin\Debug\11-digger.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\bin\Debug\nunit.framework.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\obj\Debug\Digger.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\obj\Debug\Digger.csproj.SuggestedBindingRedirects.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\obj\Debug\Digger.Properties.Resources.resources
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\obj\Debug\Digger.csproj.GenerateResource.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\obj\Debug\Digger.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\obj\Debug\Digger.csproj.CopyComplete
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\obj\Debug\11-digger.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Digger.csproj\obj\Debug\11-digger.pdb

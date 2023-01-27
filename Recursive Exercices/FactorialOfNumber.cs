@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Recursive_Exercices
+﻿namespace Recursive_Exercices
 {
     //9. Write a program in C# Sharp to find the factorial of a given number using recursion. Go to the editor
     //Test Data :

@@ -22,4 +22,5 @@ internal class Program
 
         //Copil copil1 = new Parinte(); // Copilul nu mai poate avea inca un parinte :(
     }
+
 }

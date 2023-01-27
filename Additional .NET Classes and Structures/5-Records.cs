@@ -2,26 +2,29 @@
 {
     internal class Program
     {
-        internal static void Main()
-        {
-            Makaka makaka = new("Obeziana", 20, 5);
-            Makaka makaka2 = new("Obeziana", 20, 5);
-            Console.WriteLine(makaka);
+        //internal static void Main()
+        //{
+        //    Makaka makaka = new("Obeziana", 20, 5);
+        //    Makaka makaka2 = new("Obeziana", 20, 5);
+        //    Console.WriteLine(makaka);
 
-            //makaka.Name = "Makakun"; // init only error
+        //    //makaka.Name = "Makakun"; // init only error
 
-            makaka2 = makaka with // Modificarea datelor din Recordul Makaka
-            {
-                Name = "Makakun",
-                Age = 7
-            };
-            Console.WriteLine(makaka2);
-            Console.WriteLine(makaka == makaka2);
+        //    makaka2 = makaka with // Modificarea datelor din Recordul Makaka
+        //    {
+        //        Name = "Makakun",
+        //        Age = 7
+        //    };
+        //    Console.WriteLine(makaka2);
+        //    Console.WriteLine(makaka == makaka2);
 
-            Makaka1 makaka1 = new("Obeza", 25, 10);
-            makaka1.PrintMakaka();
-            //bool boolValue = makaka1 == makaka; // Error because Makaka1 don't have a operator ==
-        }
+        //    Makaka1 makaka1 = new("Obeza", 25, 10);
+        //    makaka1.PrintMakaka();
+        //    //bool boolValue = makaka1 == makaka; // Error because Makaka1 don't have a operator ==
+
+        //    (string Name, int Weith, int Age) = new Makaka("Makaka", 20, 20);
+        //    Console.WriteLine( Name, Weith, Age);
+        //}
     }
 
     internal record Makaka(string Name, int Weith, int Age);
