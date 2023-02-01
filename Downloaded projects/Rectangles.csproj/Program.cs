@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 using TestingRoom;
 
@@ -104,8 +105,8 @@ namespace Rectangles
 
         protected override void InternalVisualize(TestCaseUI ui)
         {
-            ui.Rect(new System.Drawing.Rectangle(r1.Left, r1.Top, r1.Width, r1.Height), neutralPen);
-            ui.Rect(new System.Drawing.Rectangle(r2.Left, r2.Top, r2.Width, r2.Height), neutralPen);
+            ui.Rect(new System.Drawing.Rectangle(r1.Left, r1.Top, r1.Width, r1.Height), Pens.Blue);
+            ui.Rect(new System.Drawing.Rectangle(r2.Left, r2.Top, r2.Width, r2.Height), Pens.Red);
             ui.Log("r1: {0}", r1);
             ui.Log("r2: {0}", r2);
             ui.Log("Solution: ");

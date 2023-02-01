@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\bin\Debug\net6.0\BankCalculate.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\bin\Debug\net6.0\BankCalculate.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\bin\Debug\net6.0\BankCalculate.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\bin\Debug\net6.0\BankCalculate.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\bin\Debug\net6.0\BankCalculate.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\obj\Debug\net6.0\BankCalculate.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\obj\Debug\net6.0\BankCalculate.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\obj\Debug\net6.0\BankCalculate.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\obj\Debug\net6.0\BankCalculate.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\obj\Debug\net6.0\BankCalculate.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\obj\Debug\net6.0\BankCalculate.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\obj\Debug\net6.0\refint\BankCalculate.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\obj\Debug\net6.0\BankCalculate.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\obj\Debug\net6.0\BankCalculate.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\BankCalculate\obj\Debug\net6.0\ref\BankCalculate.dll

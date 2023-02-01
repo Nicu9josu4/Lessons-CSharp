@@ -8,3 +8,13 @@ C:\Users\ijosu\Downloads\Rectangles.csproj\obj\Debug\Rectangles.csproj.CoreCompi
 C:\Users\ijosu\Downloads\Rectangles.csproj\obj\Debug\Rectangles.csproj.CopyComplete
 C:\Users\ijosu\Downloads\Rectangles.csproj\obj\Debug\Rectangles.exe
 C:\Users\ijosu\Downloads\Rectangles.csproj\obj\Debug\Rectangles.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Rectangles.csproj\bin\Debug\Rectangles.exe.config
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Rectangles.csproj\bin\Debug\Rectangles.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Rectangles.csproj\bin\Debug\Rectangles.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Rectangles.csproj\bin\Debug\TestingRoom.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Rectangles.csproj\obj\Debug\Rectangles.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Rectangles.csproj\obj\Debug\Rectangles.csproj.SuggestedBindingRedirects.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Rectangles.csproj\obj\Debug\Rectangles.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Rectangles.csproj\obj\Debug\Rectangles.csproj.CopyComplete
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Rectangles.csproj\obj\Debug\Rectangles.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Rectangles.csproj\obj\Debug\Rectangles.pdb

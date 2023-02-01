@@ -1,0 +1,12 @@
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\manipulator.csproj\bin\Debug\Manipulator.exe.config
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\manipulator.csproj\bin\Debug\Manipulator.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\manipulator.csproj\bin\Debug\Manipulator.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\manipulator.csproj\bin\Debug\nunit.framework.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\manipulator.csproj\obj\Debug\manipulator.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\manipulator.csproj\obj\Debug\manipulator.csproj.SuggestedBindingRedirects.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\manipulator.csproj\obj\Debug\Manipulation.Properties.Resources.resources
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\manipulator.csproj\obj\Debug\manipulator.csproj.GenerateResource.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\manipulator.csproj\obj\Debug\manipulator.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\manipulator.csproj\obj\Debug\manipulator.csproj.CopyComplete
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\manipulator.csproj\obj\Debug\Manipulator.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\manipulator.csproj\obj\Debug\Manipulator.pdb

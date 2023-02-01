@@ -8,3 +8,13 @@ C:\Users\ijosu\Downloads\AngryBirds.csproj\obj\Debug\AngryBirds.csproj.CoreCompi
 C:\Users\ijosu\Downloads\AngryBirds.csproj\obj\Debug\AngryBirds.csproj.CopyComplete
 C:\Users\ijosu\Downloads\AngryBirds.csproj\obj\Debug\AngryBirds.exe
 C:\Users\ijosu\Downloads\AngryBirds.csproj\obj\Debug\AngryBirds.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\AngryBirds.csproj\bin\Debug\AngryBirds.exe.config
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\AngryBirds.csproj\bin\Debug\AngryBirds.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\AngryBirds.csproj\bin\Debug\AngryBirds.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\AngryBirds.csproj\bin\Debug\TestingRoom.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\AngryBirds.csproj\obj\Debug\AngryBirds.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\AngryBirds.csproj\obj\Debug\AngryBirds.csproj.SuggestedBindingRedirects.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\AngryBirds.csproj\obj\Debug\AngryBirds.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\AngryBirds.csproj\obj\Debug\AngryBirds.csproj.CopyComplete
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\AngryBirds.csproj\obj\Debug\AngryBirds.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\AngryBirds.csproj\obj\Debug\AngryBirds.pdb
