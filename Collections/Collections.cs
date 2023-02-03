@@ -1,5 +1,7 @@
 ﻿//difference between List and Array is https://blog.dotnetsafer.com/the-difference-between-array-and-list-in-c-memory-usage-performance/
 
+using System.Text.RegularExpressions;
+
 namespace Collections
 {
     internal class Collections // Using for List<>
@@ -39,45 +41,139 @@ namespace Collections
 
         #endregion
 
+        #region Parse with Select
+
+        //public static void Main()
+        //{
+        //    // Функция тестирования ParsePoints
+
+        //    foreach (var point in ParsePoints(new[] { "1 -2", "-3 4", "0 2" }))
+        //        Console.WriteLine(point.X + " " + point.Y);
+        //    foreach (var point in ParsePoints(new List<string> { "+01 -0042" }))
+        //        Console.WriteLine(point.X + " " + point.Y);
+        //}
+
+        //public class Point
+        //{
+        //    public Point(int x, int y)
+        //    {
+        //        X = x;
+        //        Y = y;
+        //    }
+        //    public int X, Y;
+        //}
+
+        //public static List<Point> ParsePoints(IEnumerable<string> lines)
+        //{
+        //    //var listOfPoint = new List<Point>();
+        //    //foreach(var line in lines)
+        //    //{
+        //    //    var coord = line.Split(" ");
+        //    //    listOfPoint.Add(new Point(int.Parse(coord[0]), int.Parse(coord[1])));
+        //    //}
+        //    //return listOfPoint;
+
+
+        //    return lines
+        //        .Select(line => new Point(x: int.Parse(line.Split(" ")[0]), y: int.Parse(line.Split(" ")[1])))
+        //        .ToList();
+
+
+        //}
+
+        #endregion
+
+
+        #region Select students from Classes
+
+        //public static void Main()
+        //{
+        //    Classroom[] classes =
+        //    {
+        //        new Classroom {Students = {"Pavel", "Ivan", "Petr"},},
+        //        new Classroom {Students = {"Anna", "Ilya", "Vladimir"},},
+        //        new Classroom {Students = {"Bulat", "Alex", "Galina"},}
+        //    };
+        //    var allStudents = GetAllStudents(classes);
+        //    Array.Sort(allStudents);
+        //    Console.WriteLine(string.Join(" ", allStudents));
+        //}
+        //public class Classroom
+        //{
+        //    public List<string> Students = new();
+        //}
+
+        //public static string[] GetAllStudents(Classroom[] classes)
+        //{
+        //    //var studentsArray = from classroom in classes
+        //    //                    where classroom.Students != null
+        //    //                    select classroom.Students;
+        //    //return studentsArray.ToArray();
+
+        //    return classes
+        //        .SelectMany(classroom => classroom.Students)
+        //        .ToArray();
+        //}
+
+        #endregion
+
+
+        #region SortWords 
         public static void Main()
         {
-            // Функция тестирования ParsePoints
-
-            foreach (var point in ParsePoints(new[] { "1 -2", "-3 4", "0 2" }))
-                Console.WriteLine(point.X + " " + point.Y);
-            foreach (var point in ParsePoints(new List<string> { "+01 -0042" }))
-                Console.WriteLine(point.X + " " + point.Y);
+            var vocabulary = GetSortedWords(
+                "Hello, hello, hello, how low",
+                "",
+                "With the lights out, it's less dangerous",
+                "Here we are now; entertain us",
+                "I feel stupid and contagious",
+                "Here we are now; entertain us",
+                "A mulatto, an albino, a mosquito, my libido...",
+                "Yeah, hey"
+            );
+            foreach (var word in vocabulary)
+                foreach(var word2 in word )
+                Console.WriteLine(word2);
         }
 
-        public class Point
+        public static string[][] GetSortedWords(params string[] textLines)
         {
-            public Point(int x, int y)
-            {
-                X = x;
-                Y = y;
-            }
-            public int X, Y;
+            //string[] strings = textLines
+            //    .Where(line => line != null && line != "")
+            //    .Select(line => Regex.Split(line, @"\W+"));
+
+            //var strings1 = (from line in textLines
+            //                where line != null && line != ""
+            //                select Regex.Split(textLines, @"\W+"))
+            //                .SelectMany(word => word).ToArray();
+
+            var result = textLines
+                .Where(word => word is not null and not "")
+                .Select(queries => Regex.Split(queries.ToLower(), @"\W+"))
+                .ToArray();
+            //var strings2 = from words in strings1
+            //               select words;
+            //return strings2.ToArray();
+
+            // ваше решение
+            //var str1 = textLines
+            //    .Where(x => x != null && x != "")
+            //    .SelectMany(x => x.Split(@"\W+"))
+            //    .ToArray();
+            return result;
         }
+        #endregion
 
-        public static List<Point> ParsePoints(IEnumerable<string> lines)
-        {
-            //var listOfPoint = new List<Point>();
-            //foreach(var line in lines)
-            //{
-            //    var coord = line.Split(" ");
-            //    var point = new Point(int.Parse(coord[0]), int.Parse(coord[1]));
-            //    listOfPoint.Add(point);
-            //}
-            //return listOfPoint;
+        //var allStudents = new List<string>();
+        //foreach (var classroom in classes)
+        //{
+        // foreach (var student in classroom.Students)
+        // {
+        //  allStudents.Add(student);
+        // }
+        //}
+        //return allStudents.ToArray();
 
-
-            return lines
-                .Select(line => {
-                    var coord = line.Split(" ");
-                    return new Point(int.Parse(coord[0]), int.Parse(coord[1]));
-                }) 
-                .ToList();
-        }
 
 
         //internal static void Main()
