@@ -7,6 +7,79 @@ namespace Collections
         // Lista reprezinta o colectie de obiecte aranjate precum un Array avand fiecare cate un indice
         // Spre deosebire de Array el pastreaza linkul catre spatiul de memorie care-l detine obiectul.
 
+
+        #region Use LINQ for parse numbers
+
+        //public static void Main()
+        //{
+        //    foreach (var num in ParseNumbers(new[] { "-0", "+0000" }))
+        //        Console.WriteLine(num);
+        //    foreach (var num in ParseNumbers(new List<string> { "1", "", "-03", "0" }))
+        //        Console.WriteLine(num);
+        //}
+
+        //public static int[] ParseNumbers(IEnumerable<string> lines)
+        //{
+        //    //List<int> array = new();
+        //    //foreach(var line in lines)
+        //    //{
+        //    //    //Console.WriteLine(line);
+        //    //    if(line != null && line != "")
+        //    //    array.Add(int.Parse(line.ToString()));
+        //    //}
+        //    //return array.ToArray();
+
+
+        //        return lines
+        //        .Where(line => line != null && line != "")
+        //        .Select(line => int.Parse(line))
+        //        .ToArray();
+
+        //}
+
+        #endregion
+
+        public static void Main()
+        {
+            // Функция тестирования ParsePoints
+
+            foreach (var point in ParsePoints(new[] { "1 -2", "-3 4", "0 2" }))
+                Console.WriteLine(point.X + " " + point.Y);
+            foreach (var point in ParsePoints(new List<string> { "+01 -0042" }))
+                Console.WriteLine(point.X + " " + point.Y);
+        }
+
+        public class Point
+        {
+            public Point(int x, int y)
+            {
+                X = x;
+                Y = y;
+            }
+            public int X, Y;
+        }
+
+        public static List<Point> ParsePoints(IEnumerable<string> lines)
+        {
+            //var listOfPoint = new List<Point>();
+            //foreach(var line in lines)
+            //{
+            //    var coord = line.Split(" ");
+            //    var point = new Point(int.Parse(coord[0]), int.Parse(coord[1]));
+            //    listOfPoint.Add(point);
+            //}
+            //return listOfPoint;
+
+
+            return lines
+                .Select(line => {
+                    var coord = line.Split(" ");
+                    return new Point(int.Parse(coord[0]), int.Parse(coord[1]));
+                }) 
+                .ToList();
+        }
+
+
         //internal static void Main()
         //{
         //    //Simple list

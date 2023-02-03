@@ -23,3 +23,28 @@ C:\Users\ijosu\Downloads\Mazes.csproj\obj\Debug\Mazes.csproj.CoreCompileInputs.c
 C:\Users\ijosu\Downloads\Mazes.csproj\obj\Debug\Mazes.csproj.CopyComplete
 C:\Users\ijosu\Downloads\Mazes.csproj\obj\Debug\Mazes.exe
 C:\Users\ijosu\Downloads\Mazes.csproj\obj\Debug\Mazes.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\diagonal3.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\diagonal2.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\diagonal1.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\empty5.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\empty4.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\empty3.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\empty2.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\pyramid4.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\pyramid3.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\pyramid2.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\pyramid1.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\snake3.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\snake2.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\snake1.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\mazes\empty1.txt
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\Mazes.exe.config
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\Mazes.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\Mazes.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\bin\Debug\TestingRoom.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\obj\Debug\Mazes.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\obj\Debug\Mazes.csproj.SuggestedBindingRedirects.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\obj\Debug\Mazes.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\obj\Debug\Mazes.csproj.CopyComplete
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\obj\Debug\Mazes.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\Mazes.csproj\obj\Debug\Mazes.pdb

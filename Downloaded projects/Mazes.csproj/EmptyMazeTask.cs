@@ -9,6 +9,12 @@ namespace Mazes
 			int i = width - 3, j = height - 3;
 			while (i > 0) { robot.MoveTo(Direction.Right); i--; }
 			while (j > 0) { robot.MoveTo(Direction.Down); j--; }
-		}
-	}
+            /*
+			 while(robot.Path.LongLength > 0) 
+			{ 
+				
+			}
+			 */
+        }
+    }
 }

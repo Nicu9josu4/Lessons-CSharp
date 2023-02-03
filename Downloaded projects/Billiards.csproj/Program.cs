@@ -58,6 +58,8 @@ namespace Billiards
         {
             ui.Log("Wall inclination: " + ToGradus(wallInclination));
             ui.Log("Direction: " + ToGradus(initialDirection));
+            ui.Log("\nExpectedDirection: " + ToGradus(expectedFinalDirection));
+            ui.Log("Angle: " + ToGradus(angle));
             ui.Line(-100 * Math.Cos(wallInclination), 100 * Math.Sin(wallInclination), 100 * Math.Cos(wallInclination),
                 -100 * Math.Sin(wallInclination), new Pen(Color.Black, 1));
             ui.Line(-50 * Math.Cos(initialDirection), 50 * Math.Sin(initialDirection), 0, 0, new Pen(Color.Red, 3));

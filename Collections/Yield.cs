@@ -2,21 +2,21 @@
 {
     internal class Yield
     {
-        internal static void Main()
-        {
-            Numbers numbers = new Numbers(); // Lista creata o vom primi indata la crearea obiectului de tip Numbers.
-            foreach (int num in numbers) // Trecerea prin toata lista
-            {
-                Console.WriteLine(num);
-            }
-            int index = 5;
-            int fact = 1;
-            foreach (int factor in Factorial.FactorialOfNumber(index))
-            {
-                fact *= factor;
-            }
-            Console.WriteLine(fact);
-        }
+        //internal static void Main()
+        //{
+        //    Numbers numbers = new Numbers(); // Lista creata o vom primi indata la crearea obiectului de tip Numbers.
+        //    foreach (int num in numbers) // Trecerea prin toata lista
+        //    {
+        //        Console.WriteLine(num);
+        //    }
+        //    int index = 5;
+        //    int fact = 1;
+        //    foreach (int factor in Factorial.FactorialOfNumber(index))
+        //    {
+        //        fact *= factor;
+        //    }
+        //    Console.WriteLine(fact);
+        //}
     }
 
     internal class Numbers

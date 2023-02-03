@@ -1,0 +1,17 @@
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\bin\Debug\net6.0-windows\MoveMouser.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\bin\Debug\net6.0-windows\MoveMouser.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\bin\Debug\net6.0-windows\MoveMouser.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\bin\Debug\net6.0-windows\MoveMouser.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\bin\Debug\net6.0-windows\MoveMouser.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\obj\Debug\net6.0-windows\MoveMouser.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\obj\Debug\net6.0-windows\MoveMouser.Form1.resources
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\obj\Debug\net6.0-windows\MoveMouser.csproj.GenerateResource.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\obj\Debug\net6.0-windows\MoveMouser.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\obj\Debug\net6.0-windows\MoveMouser.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\obj\Debug\net6.0-windows\MoveMouser.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\obj\Debug\net6.0-windows\MoveMouser.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\obj\Debug\net6.0-windows\MoveMouser.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\obj\Debug\net6.0-windows\refint\MoveMouser.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\obj\Debug\net6.0-windows\MoveMouser.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\obj\Debug\net6.0-windows\MoveMouser.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\MoveMouser\obj\Debug\net6.0-windows\ref\MoveMouser.dll
