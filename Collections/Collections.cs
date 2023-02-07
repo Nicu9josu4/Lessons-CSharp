@@ -83,7 +83,6 @@ namespace Collections
 
         #endregion
 
-
         #region Select students from Classes
 
         //public static void Main()
@@ -116,7 +115,6 @@ namespace Collections
         //}
 
         #endregion
-
 
         #region SortWords 
         public static void Main()
@@ -210,7 +208,7 @@ namespace Collections
 
         //    Dictionary<int, string> verbs = new()
         //    {
-        //        { 1, "alahagbar" },
+        //        { 1, "Alahagbar" },
         //        { 2, "Anatolii" },
         //        { 3, "Buhanka" },
         //        { 4, "Salamandra" }

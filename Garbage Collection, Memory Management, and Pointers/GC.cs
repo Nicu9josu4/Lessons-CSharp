@@ -24,7 +24,6 @@ namespace Garbage_Collection__Memory_Management__and_Pointers
             Console.WriteLine("Memory after GC.Collect: " + GC.GetTotalMemory(false) + "cm");
 
             Console.ReadLine();
-
         }
     }
 }

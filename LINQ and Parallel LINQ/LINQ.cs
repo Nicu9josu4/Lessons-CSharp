@@ -4,6 +4,8 @@ using System.Buffers.Text;
 using System.Runtime.Intrinsics.X86;
 using System.Xml;
 using System;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace LINQ
 {
@@ -15,7 +17,12 @@ namespace LINQ
             //TopProducts(3);
             //GroupAndSumTransactions();
             //AvearageSalary();
-            UnicalElements(22);
+            //UnicalElements(22);
+            //SecondHighestMark(50);
+            //JoinTwoLists("a");
+            //OccurrenceNumber();
+            //FindTemperature(7);
+            GroupBooks(24);
         }
         // Use LINQ to select and order a list of students by their grades.
         #region Используйте LINQ, чтобы выбрать и упорядочить список учащихся по их оценкам.
@@ -432,7 +439,7 @@ namespace LINQ
             Random random = new();
             List<int> numbers = new();
 
-            for (int i = 0; i < n; i++) numbers.Add(random.Next(1, 100));
+            for (int i = 0; i < n; i++) numbers.Add(random.Next(10, 20));
             foreach(int i in numbers)
             {
                 Console.Write(i+", ");
@@ -440,11 +447,14 @@ namespace LINQ
             Console.WriteLine();
 
             var uniqueElements = numbers
-                .Select(number => numbers.Where(number => numbers.Exists()))
-                //.Where(number => number is not numbers.SelectMany())
-                //.Equals(number => number  != numbers.Select(number => number))
+                .GroupBy(number => number)
+                .Where(number => number.Count() == 1)
+                .Select(number => number.Key)
                 .ToList();
-
+            foreach(var num in uniqueElements)
+            {
+                Console.Write(num + ", ");
+            }
 
         }
 
@@ -452,31 +462,132 @@ namespace LINQ
         // Use LINQ to find the second highest mark in a list of exam results.
         #region Используйте LINQ, чтобы найти вторую по величине оценку в списке результатов экзамена.
 
+        internal static void SecondHighestMark(int n)
+        {
+            Random random = new();
+            List<int> marks = new();
 
+            for (int i = 0; i < n; i++) marks.Add(random.Next(5, 11));
+            foreach (var mark in marks) Console.Write(mark + ",");
+            Console.WriteLine();
+            int secondMark = marks
+                .Distinct()
+                .OrderByDescending(mark => mark)
+                .ElementAt(1);
+            Console.WriteLine(secondMark);
+
+        }
 
         #endregion
         // Use LINQ to join two lists of objects and select only the necessary information.
         #region Используйте LINQ, чтобы соединить два списка объектов и выбрать только необходимую информацию.
 
+        internal static void JoinTwoLists(string necesaryInfo)
+        {
+            List<string> strings1 = new()
+            {
+                "\nDe-acuma nu te-oi mai vedea,",
+                "\nRămâi, rămâi, cu bine!",
+                "\nMă voi feri în calea mea",
+                "\nDe tine.",
+                "\n\nDe astăzi dar tu fă ce vrei,",
+                "\nDe astăzi nu-mi mai pasă",
+                "\nCă cea mai dulce-ntre femei",
+                "\nMă lasă."
+            };
+            List<string> strings2 = new()
+            {
+                "\nCăci nu mai am de obicei",
+                "\nCa-n zilele acele,",
+                "\nSă mă îmbăt şi de scântei",
+                "\nDin stele,",
+                "\n\nCând degerând atâtea dăţi,",
+                "\nEu mă uitam prin ramuri",
+                "\nŞi aşteptam să te arăţi",
+                "\nLa geamuri."
+            };
 
+
+            strings2.ForEach(str => strings1.Add(str));
+            var necesaryString = strings1
+                .First(str => str.Contains(necesaryInfo))
+                .ToString();
+            //foreach(var str in strings1) Console.WriteLine(str);
+            Console.WriteLine(necesaryString);
+        }
 
         #endregion
         // Use LINQ to count the number of occurrences of each word in a string.
         #region Используйте LINQ для подсчета количества вхождений каждого слова в строку.
 
+        internal static void OccurrenceNumber()
+        {
+            string? text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque placerat diam sit amet ante euismod dignissim. Duis ullamcorper, mauris non facilisis vehicula, est enim finibus eros, sed mollis purus nibh ut nibh. Donec in pellentesque velit. Aenean vestibulum id eros quis consequat. Morbi commodo eu justo vel blandit. Nunc pretium lorem vulputate arcu viverra lacinia. Suspendisse sit amet tellus dolor. Mauris at purus at nulla sodales dictum eu at purus. Donec congue a ante ac pellentesque. Mauris blandit erat quis elit mattis pulvinar. Integer malesuada sed mi a pellentesque. Pellentesque in elit finibus, eleifend augue at, venenatis arcu. Nunc sed libero consequat, faucibus leo et, consectetur erat. Suspendisse pretium mi sit amet sagittis molestie.\r\n\r\nNullam tristique, leo et porttitor euismod, felis ex scelerisque velit, eget euismod mi leo ut diam. Mauris ut mauris congue, mattis turpis nec, tincidunt nunc. Curabitur ac eros tempus, luctus nunc a, fermentum urna. Suspendisse vitae arcu libero. Praesent sed sapien cursus, placerat eros at, ullamcorper turpis. Aenean eget turpis bibendum, sollicitudin nibh sit amet, viverra nisl. Praesent id suscipit libero.\r\n\r\nPraesent pretium ante ut semper viverra. Vestibulum sed ipsum vel tortor lobortis dapibus sed ut sem. Etiam interdum mauris ut fringilla pretium. Fusce rhoncus nisl ac lectus tincidunt volutpat. Sed elit risus, pellentesque in malesuada vel, tincidunt a risus. Quisque sodales augue sed ex vehicula efficitur. Proin dapibus, est molestie posuere feugiat, tortor ex fermentum lorem, id viverra diam lacus quis metus. Proin dapibus, urna sit amet suscipit euismod, massa lorem aliquet urna, a cursus nunc ligula nec neque. Vestibulum ut elit vel lorem consequat bibendum vel id arcu. Vivamus accumsan elit ac odio laoreet varius. Duis eu lacinia ligula, ac consequat sem. Nunc aliquet ipsum mi, nec iaculis enim semper et. Maecenas ac elementum neque, ut pharetra lorem. Nunc vitae urna felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In auctor fringilla purus, eget commodo est mattis sed.\r\n\r\nCras ut felis et lectus cursus tempor. Vivamus vel sem sed elit dictum accumsan at non sem. Aenean nec interdum mi. Integer ullamcorper congue ipsum sit amet semper. Sed volutpat non nibh eu consequat. Sed porttitor varius nibh ut facilisis. Nulla at ligula tincidunt, sollicitudin tortor id, dignissim velit. Donec eget felis vulputate, porta nisl et, bibendum arcu. Donec cursus malesuada metus in bibendum. Fusce placerat consectetur mattis. Sed condimentum augue ut neque semper pharetra.\r\n\r\nIn hac habitasse platea dictumst. Curabitur sed tortor eget justo scelerisque dignissim. Nunc sollicitudin rhoncus ipsum, in tempor metus pellentesque quis. Maecenas at tempus purus. Nullam imperdiet leo id enim tempor, at tristique lacus eleifend. Praesent non facilisis dolor. Nullam pulvinar ante justo. Integer viverra libero tincidunt purus ultricies lacinia. In ligula ante, elementum at sem vitae, laoreet lacinia urna. In quis lacinia magna. Vestibulum bibendum vestibulum tellus, id sodales tellus molestie id. In vitae turpis nec nulla molestie faucibus eu non enim. Quisque eleifend urna vitae luctus ultricies. Cras aliquam, purus sed varius luctus, neque ante dignissim ex, ac ullamcorper sapien risus vel felis. Nullam eget lectus velit. Aliquam.";
+            List<string> words = Regex.Split(text, @"\W+").ToList();
 
+
+            var wordCount = words
+                .GroupBy(word => word.ToLower(), StringComparer.CurrentCultureIgnoreCase);
+
+            foreach (var word in wordCount)
+            {
+                Console.WriteLine(word.Key + " --> " + word.Count());
+            }
+
+
+        }
 
         #endregion
         // Use LINQ to find the maximum and minimum temperature recorded in a list of weather data.
         #region Используйте LINQ, чтобы найти максимальную и минимальную температуру, записанную в списке данных о погоде.
 
+        internal static void FindTemperature(int days)
+        {
+            List<double> dayTemperatures = new();
 
+            for(int i=0;i<days; i++)
+            {
+                dayTemperatures.Add(DayTemperature.Temperature);
+            }
+
+            var min = dayTemperatures
+                .OrderBy(temp => temp)
+                .Select(temp => temp)
+                .First();
+            var max = dayTemperatures
+                .OrderByDescending(temp => temp)
+                .First();
+            Console.WriteLine("Max temperature is:" + max + "\nMin temperature is: " + min);
+        }
 
         #endregion
         // Use LINQ to group a list of books by their publication year and count the number of books in each group.
         #region Используйте LINQ, чтобы сгруппировать список книг по году их публикации и подсчитать количество книг в каждой группе.
 
+        internal static void GroupBooks(int n)
+        {
+            Random random = new();
+            List<Book> books = new();
 
+            for(int i = 0; i < n; i++)
+            {
+                books.Add(
+                    new Book() 
+                    { 
+                        BookTitle = "Book "+i,
+                        PublicationYear = random.Next(1999,2005),
+                    });
+            }
+            foreach (Book book in books) Console.WriteLine(book.BookTitle + " --> " + book.PublicationYear);
+            var groupedBooks = books
+                .GroupBy(book => book.PublicationYear)
+                .ToList();
+            foreach(var book in groupedBooks)
+            {
+                Console.WriteLine($"In year: {book.Key} we have a {book.Count()} books");
+            }
+
+        }
 
         #endregion
     }
@@ -517,5 +628,25 @@ namespace LINQ
         public string? Name { get; set;}
         public string? Department { get; set; }
         public double Salary { get; set; }
+    }
+
+    static class DayTemperature
+    {
+        public static double Temperature { 
+            get 
+            {
+                Random random = new();
+                List<double> temps = new();
+                for (int i = 0; i < 24; i++) temps.Add(random.Next(-12, 34));
+                return AvearageTemp(temps);
+            } 
+        }
+        static double AvearageTemp(List<double> temps) => temps.Average();
+    }
+
+    class Book 
+    { 
+        public string BookTitle { get; set; }
+        public int PublicationYear { get; set; }
     }
 }

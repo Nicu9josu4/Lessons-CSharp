@@ -20,7 +20,7 @@ internal class Program
     // in cazul delegatei Message vom avea tipul de returnare void iar parametrii nu vor exista
     private delegate int Opperation(int a, int b);
 
-    // in cazul delegatei Opperation vom avea tipul de returnare int iar parametrii de intrare vor fi doua variabile de tip integer
+    // in cazul delegatei Opperation vom avea tipul de returnare int iar parametrii de intrare vor fi doua variabile de tip int
 
     public static void Main()
     {
@@ -79,12 +79,12 @@ internal class Program
     //    WriteSumFunc(floats2, SumFloat, SendMessage, Verify);
     //}
     // Folosirea delegatei Func si Action
-    public static void WriteSumFunc<T>(T[] arrayofNumbers, Func<T, T, T> sum, Action<T> act, Predicate<T[]> predicate)
+    public static void WriteSumFunc<T>(T[] arrayofObjects, Func<T, T, T> sum, Action<T> act, Predicate<T[]> predicate)
     {
         T Sum = default;
-        bool check = predicate(arrayofNumbers);
+        bool check = predicate(arrayofObjects);
         if(check)
-            foreach(var number in arrayofNumbers) 
+            foreach(var number in arrayofObjects) 
                 Sum = sum(Sum, number);
         act(Sum);
     }
