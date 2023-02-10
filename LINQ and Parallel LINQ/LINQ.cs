@@ -6,6 +6,7 @@ using System.Xml;
 using System;
 using System.Linq;
 using System.Text.RegularExpressions;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace LINQ
 {
@@ -22,7 +23,19 @@ namespace LINQ
             //JoinTwoLists("a");
             //OccurrenceNumber();
             //FindTemperature(7);
-            GroupBooks(24);
+            //GroupBooks(24);
+
+            /*
+                         foreach (var str in GetSortedWords("A box of biscuits, a box of mixed biscuits, and a biscuit mixer."))
+                        {
+                            Console.WriteLine(str);
+                        }
+                        foreach (var str in GetSortedWords("Each Easter Eddie eats eighty Easter eggs."))
+                        {
+                            Console.WriteLine(str);
+                        }
+             */
+
         }
         // Use LINQ to select and order a list of students by their grades.
         #region Используйте LINQ, чтобы выбрать и упорядочить список учащихся по их оценкам.
@@ -587,6 +600,20 @@ namespace LINQ
                 Console.WriteLine($"In year: {book.Key} we have a {book.Count()} books");
             }
 
+        }
+
+        #endregion
+
+        #region MyRegion
+
+        public static List<string> GetSortedWords(string text)
+        {
+            // ваше решение
+            return text
+                .Split(@"\W+")
+                .Select(word => word.ToLower())
+                .OrderBy(word => word)
+                .ToList(); 
         }
 
         #endregion

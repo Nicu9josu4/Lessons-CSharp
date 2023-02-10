@@ -7,9 +7,13 @@
         //    User user = new(); // Create a New user or call a constructor from User
         //    user.Id = 1;
         //    user.Name = "Tom";
-        //    user.Password= "password";
+        //    user.Password = "password";
         //    user.PrintUser(); // called Method from Generated User
         //    user.ChangeName("Valodea");
+
+        //    var person = new { Name = "Misha", Surname = "JFJE", age = 21.3  };
+
+        //    Console.WriteLine();
         //}
     }
 }

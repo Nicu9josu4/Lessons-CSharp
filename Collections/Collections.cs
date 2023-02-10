@@ -6,9 +6,60 @@ namespace Collections
 {
     internal class Collections // Using for List<>
     {
-        // Lista reprezinta o colectie de obiecte aranjate precum un Array avand fiecare cate un indice
+        // Lista reprezinta o colectie de obiecte aranjate dupa modul de introducere
         // Spre deosebire de Array el pastreaza linkul catre spatiul de memorie care-l detine obiectul.
 
+        #region InitMain
+
+
+        //internal static void Main()
+        //{
+        //    //Simple list
+        //    List<int> ints= new();  //List<int> ints = new()
+        //    ints.Add(1);            //{ 1,
+        //    ints.Add(2);            //  2,
+        //    ints.Add(3);            //  3,
+        //    ints.Add(4);            //  4 };
+
+        //    foreach(var number in ints)
+        //    {
+        //        Console.WriteLine(number);
+        //    }
+
+        //    // List of type User objects
+        //    List<User> users = new()
+        //    {
+        //        new User { Name = "Tolik", CardNumber = 123123123 },
+        //        new User { Name = "Bolik", CardNumber = 123123124 },
+        //        new User { Name = "Alcogolik", CardNumber = 123123125 },
+        //        new User { Name = "Alcogolikov", CardNumber = 123123121 }
+        //    };
+        //    foreach (var user in users)
+        //    {
+        //        user.PrintUser();
+        //    }
+
+        //    var sameUser = users.Where(user => user.CardNumber == 123123123).First();
+        //    Console.WriteLine(sameUser.Name);
+        //    sameUser.Name = "Anatolii";
+        //    sameUser.PrintUser();
+
+        //    Dictionary<int, string> verbs = new()
+        //    {
+        //        { 1, "Alahagbar" },
+        //        { 2, "Anatolii" },
+        //        { 3, "Buhanka" },
+        //        { 4, "Salamandra" }
+        //    };
+        //    foreach(var verb in verbs)
+        //    {
+        //        Console.WriteLine(verb.Value);
+        //    }
+
+        //}
+
+
+        #endregion
 
         #region Use LINQ for parse numbers
 
@@ -114,6 +165,16 @@ namespace Collections
         //        .ToArray();
         //}
 
+        //var allStudents = new List<string>();
+        //foreach (var classroom in classes)
+        //{
+        // foreach (var student in classroom.Students)
+        // {
+        //  allStudents.Add(student);
+        // }
+        //}
+        //return allStudents.ToArray();
+
         #endregion
 
         #region SortWords 
@@ -136,99 +197,15 @@ namespace Collections
 
         public static string[][] GetSortedWords(params string[] textLines)
         {
-            //string[] strings = textLines
-            //    .Where(line => line != null && line != "")
-            //    .Select(line => Regex.Split(line, @"\W+"));
-
-            //var strings1 = (from line in textLines
-            //                where line != null && line != ""
-            //                select Regex.Split(textLines, @"\W+"))
-            //                .SelectMany(word => word).ToArray();
-
             var result = textLines
                 .Where(word => word is not null and not "")
                 .Select(queries => Regex.Split(queries.ToLower(), @"\W+"))
                 .ToArray();
-            //var strings2 = from words in strings1
-            //               select words;
-            //return strings2.ToArray();
-
-            // ваше решение
-            //var str1 = textLines
-            //    .Where(x => x != null && x != "")
-            //    .SelectMany(x => x.Split(@"\W+"))
-            //    .ToArray();
             return result;
         }
         #endregion
 
-        //var allStudents = new List<string>();
-        //foreach (var classroom in classes)
-        //{
-        // foreach (var student in classroom.Students)
-        // {
-        //  allStudents.Add(student);
-        // }
-        //}
-        //return allStudents.ToArray();
-
-
-
-        //internal static void Main()
-        //{
-        //    //Simple list
-        //    List<int> ints= new();  //List<int> ints = new()
-        //    ints.Add(1);            //{ 1,
-        //    ints.Add(2);            //  2,
-        //    ints.Add(3);            //  3,
-        //    ints.Add(4);            //  4 };
-
-        //    foreach(var number in ints)
-        //    {
-        //        Console.WriteLine(number);
-        //    }
-
-        //    // List of type User objects
-        //    List<User> users = new()
-        //    {
-        //        new User { Name = "Tolik", CardNumber = 123123123 },
-        //        new User { Name = "Bolik", CardNumber = 123123124 },
-        //        new User { Name = "Alcogolik", CardNumber = 123123125 },
-        //        new User { Name = "Alcogolikov", CardNumber = 123123121 }
-        //    };
-        //    foreach (var user in users)
-        //    {
-        //        user.PrintUser();
-        //    }
-
-        //    var sameUser = users.Where(user => user.CardNumber == 123123123).First();
-        //    Console.WriteLine(sameUser.Name);
-        //    sameUser.Name = "Anatolii";
-        //    sameUser.PrintUser();
-
-        //    Dictionary<int, string> verbs = new()
-        //    {
-        //        { 1, "Alahagbar" },
-        //        { 2, "Anatolii" },
-        //        { 3, "Buhanka" },
-        //        { 4, "Salamandra" }
-        //    };
-        //    foreach(var verb in verbs)
-        //    {
-        //        Console.WriteLine(verb.Value);
-        //    }
-
-        //}
+        
     }
 
-    internal class User
-    {
-        public string? Name { get; set; }
-        public int CardNumber { get; set; }
-
-        public void PrintUser()
-        {
-            Console.WriteLine($"Name: {Name} card number: {CardNumber}");
-        }
-    }
 }

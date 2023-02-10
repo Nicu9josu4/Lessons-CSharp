@@ -12,7 +12,7 @@ namespace Multithreading // Потоки
      */
     internal class Threads
     {
-        internal static void Main()
+        internal static void Main1()
         {
             Thread currentThread = Thread.CurrentThread; // Create a new thread
             Console.WriteLine("Created name:" + currentThread.Name); // print thread name

@@ -22,7 +22,7 @@ namespace Asynchronous_Programming
         }
         internal async static void Wait()
         {
-            int t = await Task.Run(() => Allocate());
+            int t = await Task.Run(() => Allocate()); // Un lucru greu
             Console.WriteLine("Compute: " + t);
             return;
         }
