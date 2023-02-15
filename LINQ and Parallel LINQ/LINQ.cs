@@ -16,7 +16,7 @@ namespace LINQ
         {
             //StudentOrder();
             //TopProducts(3);
-            //GroupAndSumTransactions();
+            GroupAndSumTransactions();
             //AvearageSalary();
             //UnicalElements(22);
             //SecondHighestMark(50);
@@ -84,6 +84,7 @@ namespace LINQ
 
         internal static void TopProducts(int n)
         {
+            int m = n;
             List<Product> products = new()
             {
                 new Product(){ Name = "Milk", SaledCount = 521},
@@ -98,11 +99,16 @@ namespace LINQ
                 new Product(){ Name = "Paper", SaledCount = 501},
             };
             var topProducts = products
-                .OrderByDescending(product => product.SaledCount) // Sort list
                 .Where(product => n-- > 0) // Get top n elements
+                .OrderByDescending(product => product.SaledCount) // Sort list
+                .OrderBy(product => product.SaledCount) // Sort list
                 .ToList(); // Returning values by list
 
-            foreach (Product product in topProducts)
+            var bestProducts = (from product in products
+                                orderby product.SaledCount descending
+                                where m-- > 0
+                                select product).ToList();
+            foreach (Product product in bestProducts)
             {
                 Console.WriteLine($"{product.Name} saled {product.SaledCount} times");
             }

@@ -28,3 +28,18 @@ D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library
 D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\obj\Debug\net6.0\9. Parallel Programming and the TPL Library.pdb
 D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\obj\Debug\net6.0\9. Parallel Programming and the TPL Library.genruntimeconfig.cache
 D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\obj\Debug\net6.0\ref\9. Parallel Programming and the TPL Library.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\Azure.Core.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\Microsoft.Graph.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\Microsoft.Graph.Core.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\System.Memory.Data.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\bin\Debug\net6.0\System.Text.Json.dll
+D:\VisualStudio Projects\Lessons-CSharp\Parallel Programming and the TPL Library\obj\Debug\net6.0\9. Parallel Programming and the TPL Library.csproj.CopyComplete

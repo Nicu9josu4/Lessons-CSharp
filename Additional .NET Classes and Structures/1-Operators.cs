@@ -1,6 +1,6 @@
 ﻿internal class Operators
 {
-    internal static void Main()
+    internal static void Main1()
     {
         Counter counter1 = new Counter() { Value = 2 };
         Counter counter2 = new Counter() { Value = 5 };

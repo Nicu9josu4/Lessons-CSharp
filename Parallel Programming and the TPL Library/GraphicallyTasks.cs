@@ -4,7 +4,7 @@
     {
         // aplicatia consola are doar un singur Task si in cazul in care creem await Task.Delay(100) si neavand alte task-uri de indeplinit, aplicatia se inchide
 
-        public static void Main()
+        public static void MainGraphicaly()
         {
             //Method();
 

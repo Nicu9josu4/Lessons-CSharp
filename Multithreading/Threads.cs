@@ -12,8 +12,10 @@ namespace Multithreading // Потоки
      */
     internal class Threads
     {
-        internal static void Main1()
+        internal static void Main()
         {
+            //MultithreadingTasks.MainTasks(); // Pornirea exercitiilor cu Thread-uri
+
             Thread currentThread = Thread.CurrentThread; // Create a new thread
             Console.WriteLine("Created name:" + currentThread.Name); // print thread name
             currentThread.Name = "Thread001"; // set a new name for thread
@@ -22,15 +24,18 @@ namespace Multithreading // Потоки
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
 
-            Thread myThread1 = new(PrintMessage); // Pentru a chema metoda este necesar doar de creat un Thread cu numele acestei metode
-            Thread myThread2 = new(new ThreadStart(PrintMessage1));
-            Thread myThread3 = new(() => Console.WriteLine("Thread n.3"));
+            //Action act = PrintMessage1;
+            ThreadStart th = new(() => PrintMessage(" ", 1));
 
+            Thread myThread1 = new(PrintMessage1); // Pentru a chema metoda este necesar doar de creat un Thread cu numele acestei metode
+            Thread myThread2 = new(th);
+            var myThread3 = new TaskFactory.StartNew(() => Console.WriteLine("Thread n.3"));
+            TaskFactory
             myThread1.Start("Thread n.1"); // ca parametri de trimitere contine un text
             myThread2.Start();
-            myThread3.Start();
+            //myThread3.Start();
 
-            static void PrintMessage(object? message) => Console.WriteLine(message);
+            static void PrintMessage(object? message, int a) => Console.WriteLine(message);
             static void PrintMessage1() => Console.WriteLine("Thread n.2");
 
             Console.WriteLine("Press any key to continue...");

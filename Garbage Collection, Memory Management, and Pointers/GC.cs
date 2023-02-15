@@ -8,7 +8,7 @@ namespace Garbage_Collection__Memory_Management__and_Pointers
 {
     internal class GarbageColector
     {
-        internal static void Main(string[] args)
+        internal static void Main()
         {
             Console.WriteLine("Empty Project: " + GC.GetTotalMemory(false) + "cm"); // verificarea memoriei folosite pentru a porni acest program
 

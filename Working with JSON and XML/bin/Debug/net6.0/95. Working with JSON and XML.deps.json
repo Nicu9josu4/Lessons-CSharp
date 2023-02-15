@@ -10,11 +10,21 @@
         "runtime": {
           "95. Working with JSON and XML.dll": {}
         }
+      },
+      "96. Processes and Application Domains/1.0.0": {
+        "runtime": {
+          "96. Processes and Application Domains.dll": {}
+        }
       }
     }
   },
   "libraries": {
     "95. Working with JSON and XML/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "96. Processes and Application Domains/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

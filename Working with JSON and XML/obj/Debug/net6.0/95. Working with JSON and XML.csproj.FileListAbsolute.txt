@@ -13,3 +13,9 @@ D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6
 D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\95. Working with JSON and XML.pdb
 D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\95. Working with JSON and XML.genruntimeconfig.cache
 D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\ref\95. Working with JSON and XML.dll
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\bin\Debug\net6.0\96. Processes and Application Domains.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\bin\Debug\net6.0\96. Processes and Application Domains.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\bin\Debug\net6.0\96. Processes and Application Domains.exe
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\bin\Debug\net6.0\96. Processes and Application Domains.dll
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\bin\Debug\net6.0\96. Processes and Application Domains.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Working with JSON and XML\obj\Debug\net6.0\95. Working with JSON and XML.csproj.CopyComplete

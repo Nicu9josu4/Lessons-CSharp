@@ -6,7 +6,11 @@
         {
             Makaka makaka = new("Obeziana", 20, 5);
             Makaka makaka2 = new("Obeziana", 20, 5);
+            Makaka1 mk1 = new("Obeziana", 20, 5);
+            //makaka2.ToString();
             Console.WriteLine(makaka);
+            Console.WriteLine(makaka2.ToString());
+            Console.WriteLine(mk1);
 
             //makaka.Name = "Makakun"; // init only error
 
@@ -18,6 +22,8 @@
             Console.WriteLine(makaka2);
             Console.WriteLine(makaka == makaka2);
 
+            makaka2.GetName();
+
             Makaka1 makaka1 = new("Obeza", 25, 10);
             makaka1.PrintMakaka();
             //bool boolValue = makaka1 == makaka; // Error because Makaka1 don't have a operator ==
@@ -28,7 +34,10 @@
     }
 
     internal record class Makaka(string Name, int Weith, int Age) { 
-        public string Name { get; set; }
+        public string GetName()
+        {
+            return Name;
+        }
     };
 
     public class Makaka1
