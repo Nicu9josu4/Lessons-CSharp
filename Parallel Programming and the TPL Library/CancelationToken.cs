@@ -33,9 +33,6 @@
             Console.WriteLine($"Task Status: {task1.Status}");
             
             cts.Dispose(); // Eliberam resursele
-            Thread.Sleep(1000);
-            Console.WriteLine($"Task Status: {task1.Status}");
-
         }
     }
 }

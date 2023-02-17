@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "rPAKaf3iw0SSDpsgrsEyZ+cLIn9IQlf751fN3F/mMe682lbK7fOetp2VTK0kUii6DZ3s4Uykn8PjA1KNbbzv3A==",
+  "dgSpecHash": "VPqzjJ8FS/4i0hpIF2j198ThjSmSJ6320088Q5ZO39dwLOcaxcx8AQwOf5+gmEHKopmWqL706GQJfw8knbGAUQ==",
   "success": true,
   "projectFilePath": "D:\\VisualStudio Projects\\Lessons-CSharp\\Dynamic Language Runtime\\93. Dynamic Language Runtime.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ijosu\\.nuget\\packages\\dynamiclanguageruntime\\1.3.3\\dynamiclanguageruntime.1.3.3.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\ironpython\\3.4.0\\ironpython.3.4.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\ironpython.stdlib\\3.4.0\\ironpython.stdlib.3.4.0.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\mono.unix\\7.1.0-final.1.21458.1\\mono.unix.7.1.0-final.1.21458.1.nupkg.sha512",
+    "C:\\Users\\ijosu\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

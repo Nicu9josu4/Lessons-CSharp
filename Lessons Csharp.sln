@@ -41,7 +41,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleGenerate", "Triangl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ULearn", "ULearn\ULearn.csproj", "{3109FF06-AA48-4E96-A2DD-9889980194AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursive Exercices", "Recursive Exercices\Recursive Exercices.csproj", "{3735B287-6ABF-477A-BD76-FB345A2ED785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursive Exercices", "Recursive Exercices\Recursive Exercices.csproj", "{3735B287-6ABF-477A-BD76-FB345A2ED785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{99BECC5F-1485-47B9-929B-D68D53A52A09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{3735B287-6ABF-477A-BD76-FB345A2ED785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3735B287-6ABF-477A-BD76-FB345A2ED785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3735B287-6ABF-477A-BD76-FB345A2ED785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99BECC5F-1485-47B9-929B-D68D53A52A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BECC5F-1485-47B9-929B-D68D53A52A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BECC5F-1485-47B9-929B-D68D53A52A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BECC5F-1485-47B9-929B-D68D53A52A09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

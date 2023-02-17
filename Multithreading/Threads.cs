@@ -29,8 +29,7 @@ namespace Multithreading // Потоки
 
             Thread myThread1 = new(PrintMessage1); // Pentru a chema metoda este necesar doar de creat un Thread cu numele acestei metode
             Thread myThread2 = new(th);
-            var myThread3 = new TaskFactory.StartNew(() => Console.WriteLine("Thread n.3"));
-            TaskFactory
+            Thread myThread3 = new(() => Console.WriteLine("Thread n.3"));
             myThread1.Start("Thread n.1"); // ca parametri de trimitere contine un text
             myThread2.Start();
             //myThread3.Start();
