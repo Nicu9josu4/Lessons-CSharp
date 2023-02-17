@@ -1,4 +1,6 @@
-﻿namespace Reflection
+﻿using System.Reflection;
+
+namespace Reflection
 {
     class Program
     {
@@ -18,7 +20,41 @@
                 Console.WriteLine(member.MemberType + " -> " + member);
             }
 
-        } 
+            //Console.WriteLine("Press Key to Continue...");
+            //Console.ReadLine();
+
+            #region Reflection for Fields and Properties 
+
+            var type = typeof(MyClass);
+
+            ConstructorInfo ctor = type.GetConstructor(new Type[] { });
+            var result = ctor.Invoke(new object[] { });
+            // делает то же, что 
+            // object result = new MyClass();
+
+            var propertyInfo = type.GetProperty("Property");
+            propertyInfo.SetValue(result, 5);
+            var variable1 = (int)type.GetMethod("Method").Invoke(result, new object[] { 3 });
+            // делает то же, что
+            // result.Property = 5; var variable1 = result.Method(3);
+
+            var field = type.GetField("Field", BindingFlags.NonPublic | BindingFlags.Instance); 
+            field.SetValue(result, true);
+            // делает то же, что
+            // result.Field = true, несмотря на то, что это поле private
+
+            #endregion
+
+        }
+    }
+    class MyClass
+    {
+        public int Property { get; set; }
+        private bool Field;
+        public int Method(int argument)
+        {
+            return Property + argument;
+        }
     }
 
     public record Computer(string Name, string OS, string ProcessorName, int RAM, int DiskSpace)

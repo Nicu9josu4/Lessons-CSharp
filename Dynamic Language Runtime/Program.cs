@@ -32,7 +32,8 @@ namespace Dynamic
             //    Console.WriteLine(member);
             //}
 
-            ScriptEngine engine = Python.CreateEngine();
+            ScriptEngine engine = Python.CreateEngine(); // Este folosit spre exemplu daca nu dorim sa modificam in programul principal,
+                                                         // dar sa adaugam un scenariu al unei jocuri video
             engine.ExecuteFile("script.py");
             engine.Execute("print('Hello')");
 
