@@ -23,9 +23,8 @@
 
             Console.Clear();
             Console.WriteLine("------>Paralel.ForEach()<------ \n");
-
-            ParallelLoopResult result = Parallel.ForEach<int>(
-                new List<int>() { 1, 3, 5, 8 }, SquareForEach);
+            List<int> ints = new() { 1, 3, 5, 8 };
+            ParallelLoopResult result = Parallel.ForEach(ints, SquareForEach);
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();

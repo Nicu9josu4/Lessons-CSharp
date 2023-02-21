@@ -20,27 +20,30 @@
             //}
 
             #region Gud Tasks
-
+            int i = 100;
             Task task1 = Task.Run(async () =>
             {
-                while (true)
+                while (i>=0)
                 {
                     Console.Write(".");
                     //Thread.Sleep(10);
                     await Task.Delay(10);
+                    Console.Write(i);
+                    i--;
                 }
             });
             Task task2 = Task.Run(async () =>
             {
-                while (true)
+                while (i>=0)
                 {
                     Console.WriteLine();
                     //Thread.Sleep(100);
                     await Task.Delay(100);
+                    Console.Write(i);
+                    i--;
                 }
             });
-            task1.Wait();
-            task2.Wait();
+            Task.WaitAll(task1, task2);
 
             #endregion Gud Tasks
 

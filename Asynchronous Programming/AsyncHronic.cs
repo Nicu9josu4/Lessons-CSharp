@@ -14,13 +14,13 @@ namespace Asynchronous_Programming
             while (true)
             {
                 // Start computation.
-                Wait();
+                WaitAsync();
                 // Handle user input.
                 string? result = Console.ReadLine();
                 Console.WriteLine("You typed: " + result);
             }
         }
-        internal async static void Wait()
+        internal async static void WaitAsync()
         {
             int t = await Task.Run(() => Allocate()); // Un lucru greu
             Console.WriteLine("Compute: " + t);

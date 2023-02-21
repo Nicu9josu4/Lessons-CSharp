@@ -1,0 +1,15 @@
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\bin\Debug\net7.0\8. Multithreading.exe
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\bin\Debug\net7.0\8. Multithreading.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\bin\Debug\net7.0\8. Multithreading.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\bin\Debug\net7.0\8. Multithreading.dll
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\bin\Debug\net7.0\8. Multithreading.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\net7.0\8. Multithreading.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\net7.0\8. Multithreading.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\net7.0\8. Multithreading.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\net7.0\8. Multithreading.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\net7.0\8. Multithreading.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\net7.0\8. Multithreading.dll
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\net7.0\refint\8. Multithreading.dll
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\net7.0\8. Multithreading.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\net7.0\8. Multithreading.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\net7.0\ref\8. Multithreading.dll

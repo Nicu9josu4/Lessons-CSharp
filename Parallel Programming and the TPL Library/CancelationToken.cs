@@ -25,11 +25,12 @@
                 }
             }, ct);
             task1.Start();
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
             // Dupa ce se termina timpul se va inchide Tokenul
+            while(!Console.KeyAvailable)
             cts.Cancel();
             // Asteptam finalizarea task-ului
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
             Console.WriteLine($"Task Status: {task1.Status}");
             
             cts.Dispose(); // Eliberam resursele

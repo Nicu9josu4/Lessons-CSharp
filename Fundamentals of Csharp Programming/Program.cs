@@ -2,28 +2,40 @@
 {
     private static void Main(string[] args)
     {
-        // program structure:
-        Console.WriteLine("Hello World!");
+        //// program structure:
+        //Console.WriteLine("Hello World!");
 
-        // Variables:
-        int a;
-        char b = 'a';
-        string? s = Console.ReadLine();
+        //// Variables:
+        //int a;
+        //char b = 'a';
+        //string? s = Console.ReadLine();
 
-        a = 10;
-        Console.WriteLine($"a= {a}, b= {b}, s= {s}");
-        // enum call:
-        Console.WriteLine(Week.friday.ToString());
-        Console.WriteLine(Week.sunday);
-        Console.WriteLine();
+        //a = 10;
+        //Console.WriteLine($"a= {a}, b= {b}, s= {s}");
+        //// enum call:
+        //Console.WriteLine(Week.friday.ToString());
+        //Console.WriteLine(Week.sunday);
+        //Console.WriteLine();
 
 
-        // не баг а фитча
-        Console.Write("It's a Fitche ");
-        Console.WriteLine($"0.1 + 0.2 = {0.1+0.2}");
-        Console.WriteLine($"0.1 + 0.2 == 0.3 is {0.1 + 0.2 == 0.3}");
+        //// не баг а фитча
+        //Console.Write("It's a Fitche ");
+        //Console.WriteLine($"0.1 + 0.2 = {0.1+0.2}");
+        //Console.WriteLine($"0.1 + 0.2 == 0.3 is {0.1 + 0.2 == 0.3}");
+
+        // Used discard
+
+        User user = new User("Name", "Valodea", 22);
+        string name;
+        string surname;
+        int age;
+        (name,_, _) = user; // Use discard
+        Console.WriteLine(name);
+
+
     }
 }
+public record class User(string Name,string Surname, int Age);
 
 // enum:
 internal enum Week

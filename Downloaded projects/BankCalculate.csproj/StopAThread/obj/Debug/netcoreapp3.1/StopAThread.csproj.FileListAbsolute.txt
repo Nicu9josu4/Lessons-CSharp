@@ -1,0 +1,14 @@
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\bin\Debug\netcoreapp3.1\StopAThread.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\bin\Debug\netcoreapp3.1\StopAThread.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\bin\Debug\netcoreapp3.1\StopAThread.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\bin\Debug\netcoreapp3.1\StopAThread.runtimeconfig.dev.json
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\bin\Debug\netcoreapp3.1\StopAThread.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\bin\Debug\netcoreapp3.1\StopAThread.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\netcoreapp3.1\StopAThread.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\netcoreapp3.1\StopAThread.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\netcoreapp3.1\StopAThread.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\netcoreapp3.1\StopAThread.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\netcoreapp3.1\StopAThread.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\netcoreapp3.1\StopAThread.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\netcoreapp3.1\StopAThread.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\netcoreapp3.1\StopAThread.genruntimeconfig.cache

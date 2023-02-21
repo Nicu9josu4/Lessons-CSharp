@@ -1,0 +1,16 @@
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\bin\Debug\net5.0\StopAThread.exe
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\bin\Debug\net5.0\StopAThread.deps.json
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\bin\Debug\net5.0\StopAThread.runtimeconfig.json
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\bin\Debug\net5.0\StopAThread.runtimeconfig.dev.json
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\bin\Debug\net5.0\StopAThread.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\bin\Debug\net5.0\StopAThread.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\net5.0\StopAThread.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\net5.0\StopAThread.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\net5.0\StopAThread.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\net5.0\StopAThread.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\net5.0\StopAThread.csproj.CoreCompileInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\net5.0\StopAThread.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\net5.0\refint\StopAThread.dll
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\net5.0\StopAThread.pdb
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\net5.0\StopAThread.genruntimeconfig.cache
+D:\VisualStudio Projects\Lessons-CSharp\Downloaded projects\BankCalculate.csproj\StopAThread\obj\Debug\net5.0\ref\StopAThread.dll

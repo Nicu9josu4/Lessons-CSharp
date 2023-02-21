@@ -1,0 +1,5 @@
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\netcoreapp3.1\8. Multithreading.csproj.AssemblyReference.cache
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\netcoreapp3.1\8. Multithreading.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\netcoreapp3.1\8. Multithreading.AssemblyInfoInputs.cache
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\netcoreapp3.1\8. Multithreading.AssemblyInfo.cs
+D:\VisualStudio Projects\Lessons-CSharp\Multithreading\obj\Debug\netcoreapp3.1\8. Multithreading.csproj.CoreCompileInputs.cache
