@@ -9,7 +9,12 @@ namespace Asynchronous_Programming
 {
     internal class AsyncHronic
     {
-        public static void Main()
+
+        /*
+            Develop a program that uses async-await to perform a long-running calculation, 
+                where the calculation is performed asynchronously and the result is displayed when it becomes available.
+        */
+        public static void MainHronic()
         {
             while (true)
             {
@@ -22,7 +27,7 @@ namespace Asynchronous_Programming
         }
         internal async static void WaitAsync()
         {
-            int t = await Task.Run(() => Allocate()); // Un lucru greu
+            int t = await Task.Run( () => Allocate()); // ??????????????
             Console.WriteLine("Compute: " + t);
             return;
         }

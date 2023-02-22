@@ -1,94 +1,32 @@
-﻿//internal class AsyncAwait
-//{
-//    //private static void Main()
-//    //{
-//    //    //for(int i = 0; i < 5; i++)
-//    //    Task.Run(() => { AsyncMethod(4); }).Wait();
-//    //}
+﻿using Asynchronous_Programming;
 
-//    public static async Task PrintAsync(int n)
-//    { Console.WriteLine("Iteration {0}", n); await Task.Delay(100); } // Ce se va intampla daca scoatem await de la Task.Delay
+internal class AsyncAwait
+{
 
-//    public static async void AsyncMethod(int n)
-//    {
-//        var task = Task.Run(async () =>
-//        {
-//            Console.WriteLine("Task from AsyncMethod");
-//            await Task.Delay(1000);
-//            for (int i = 0; i < n; i++)
-//                await PrintAsync(i);
-//            await Task.Run(async () =>
-//            {
-//                Console.WriteLine("Task from AsyncMethod.FirstTask");
-//                await Task.Delay(1000);
-//                for (int i = 0; i < n; i++)
-//                    await PrintAsync(i);
-//                await Task.Run(async () =>
-//                {
-//                    Console.WriteLine("Task from AsyncMethod.FirstTask.SecondTask");
-//                    await Task.Delay(1000);
-//                    for (int i = 0; i < n; i++)
-//                        await PrintAsync(i);
-//                    await Task.Run(() =>
-//                    {
-//                        Console.WriteLine("Task from AsyncMethod.FirstTask.SecondTask.ThirdTask");
-//                        Task.Delay(1000);
-//                        for (int i = 0; i < n; i++)
-//                            PrintAsync(i);
-//                    });
-//                });
-//            });
-//        });
-//        var task1 = Task.Run(async () =>
-//        {
-//            Console.WriteLine("Task from AsyncMethod");
-//            await Task.Delay(1000);
-//            await PrintAsync(n - 2);
-//            await Task.Run(async () =>
-//            {
-//                Console.WriteLine("Task from AsyncMethod.FirstTask1");
-//                await Task.Delay(1000);
-//                await PrintAsync(n - 2);
-//                await Task.Run(() =>
-//                {
-//                    Console.WriteLine("Task from AsyncMethod.FirstTask1.SecondTask1");
-//                    Task.Delay(1000);
-//                    PrintAsync(n - 2);
-//                    Task.Run(() =>
-//                    {
-//                        Console.WriteLine("Task from AsyncMethod.FirstTask1.SecondTask1.ThirdTask1");
-//                        Task.Delay(1000);
-//                        PrintAsync(n - 2);
-//                    });
-//                });
-//            });
-//        });
-//        var task2 = Task.Run(async () =>
-//        {
-//            Console.WriteLine("Task from AsyncMethod");
-//            await Task.Delay(1000);
-//            PrintAsync(n + 1);
-//            await Task.Run(async () =>
-//            {
-//                Console.WriteLine("Task from AsyncMethod.FirstTask2");
-//                await Task.Delay(1000);
-//                PrintAsync(n + 1);
-//                await Task.Run(() =>
-//                {
-//                    Console.WriteLine("Task from AsyncMethod.FirstTask2.SecondTask2");
-//                    Task.Delay(1000);
-//                    PrintAsync(n + 1);
-//                    Task.Run(() =>
-//                    {
-//                        Console.WriteLine("Task from AsyncMethod.FirstTask2.SecondTask2.ThirdTask2");
-//                        Task.Delay(1000);
-//                        PrintAsync(n + 1);
-//                    });
-//                });
-//            });
-//        });
-//        task.Wait();
-//        task1.Wait();
-//        task2.Wait();
-//    }
-//}
+    
+    private static void Main()
+    {
+        AsyncHronic.MainHronic(); 
+        //Asynchroniusly.MainAsync();
+        //List<Student> students = new();
+
+
+        //for (int i = 1; i <= 5; i++)
+        //{
+        //     Task.Run(async () => {students.Add(await AsyncMethod(new Student("Student " + i, i + 24))); }).Wait();
+        //}
+
+        //foreach(var student in students)
+        //{
+        //    Console.WriteLine(student);
+        //}
+
+    }
+
+    public static async Task PrintAsync(int n)
+    { Console.WriteLine("Iteration {0}", n); await Task.Delay(100); }
+
+    public static async Task<Student> AsyncMethod(Student student) => student;
+
+    internal record class Student(string Name, int Age);
+}

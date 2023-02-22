@@ -6,41 +6,23 @@
 
         public static void MainGraphicaly()
         {
-            //Method();
-
-            //static async void Method()
-            //{
-            //    while (true)
-            //    {
-            //        Console.Write(".");
-            //        //Thread.Sleep(10);
-            //        await Task.Delay(10);
-            //    }
-
-            //}
-
             #region Gud Tasks
-            int i = 100;
             Task task1 = Task.Run(async () =>
             {
-                while (i>=0)
+                while (true)
                 {
                     Console.Write(".");
                     //Thread.Sleep(10);
                     await Task.Delay(10);
-                    Console.Write(i);
-                    i--;
                 }
             });
             Task task2 = Task.Run(async () =>
             {
-                while (i>=0)
+                while (true)
                 {
-                    Console.WriteLine();
+                    Console.WriteLine("->");
                     //Thread.Sleep(100);
                     await Task.Delay(100);
-                    Console.Write(i);
-                    i--;
                 }
             });
             Task.WaitAll(task1, task2);

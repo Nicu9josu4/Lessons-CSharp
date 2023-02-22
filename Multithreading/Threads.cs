@@ -13,6 +13,7 @@ namespace Multithreading // Потоки
      */
     internal class Threads
     {
+        public static bool stopThread = false;
         internal static void Main()
         {
             //MultithreadingTasks.MainTasks(); // Pornirea exercitiilor cu Thread-uri
@@ -62,7 +63,7 @@ namespace Multithreading // Потоки
             CancellationTokenSource cts = new();
             Thread thread = new(() => {
                 Console.WriteLine($"{Thread.CurrentThread.Name} is Starting");
-                for (int j = 1; j <= 100 && !cts.IsCancellationRequested; j++)
+                for (int j = 1; j <= 100 && !stopThread; j++)
                 {
                     Console.Write(j + " ");
                     if ((j % 10) == 0)
@@ -80,9 +81,10 @@ namespace Multithreading // Потоки
             for(int i = 0; i < 100; i++)
             {
                 Thread.Sleep(10);
-                if (i == 33)
+                if (i == 61)
                 {
-                    cts.Cancel();
+                    //cts.Cancel();
+                    stopThread = true;
                     break;
                 }
             }
@@ -95,7 +97,7 @@ namespace Multithreading // Потоки
             //catch (Exception ex)
             //{
 
-            //    Console.WriteLine(ex.Message) ;
+            //    Console.WriteLine(ex.Message);
             //}
 
             Console.WriteLine("Main thread is terminating");

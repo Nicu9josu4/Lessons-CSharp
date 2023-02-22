@@ -1,4 +1,6 @@
-﻿internal class Fundamentals
+﻿using static System.Net.Mime.MediaTypeNames;
+
+internal class Fundamentals
 {
     private static void Main(string[] args)
     {
@@ -25,17 +27,19 @@
 
         // Used discard
 
-        User user = new User("Name", "Valodea", 22);
-        string name;
-        string surname;
-        int age;
-        (name,_, _) = user; // Use discard
-        Console.WriteLine(name);
+        User user = new User("Name", "Valodea", 22, "Tehnology", 23544);
+
+
+        //string name = user.Name;
+        //string surname = user.Surname;
+        //int age = user.Age;
+        (string name, _, _, string workPosition , int salary) = user; // Use discard
+        Console.WriteLine($"{name} work in {workPosition} and have a salary: {salary}");
 
 
     }
 }
-public record class User(string Name,string Surname, int Age);
+public record class User(string Name,string Surname, int Age, string WorkPosition, int Salary);
 
 // enum:
 internal enum Week

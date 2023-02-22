@@ -10,20 +10,37 @@ namespace Garbage_Collection__Memory_Management__and_Pointers
     {
         internal static void Main()
         {
-            Console.WriteLine("Empty Project: " + GC.GetTotalMemory(false) + "cm"); // verificarea memoriei folosite pentru a porni acest program
+            Console.WriteLine("To run an EMPTY PROJECT we used " + GC.GetTotalMemory(false) + " bytes"); // verificarea memoriei folosite pentru a porni acest program
 
-            for(int i = 1; i < 10000; i++) // imitarea unei munci grele a programului
+            for(int i = 1; i < 100000000; i++) // imitarea unei munci grele a programului
             {
                 var obj = (object)i; // Boxing a value
                 int j = (int)obj;
             }
-            Console.WriteLine("Memory after iterations: " + GC.GetTotalMemory(false) + "cm"); // verificarea memoriei folosite dupa efectuarea unei iteratii de la 1 la 10000
+            Console.WriteLine("To EXECUTE OPERATIONS we use    " + GC.GetTotalMemory(false) + " bytes"); // verificarea memoriei folosite dupa efectuarea unei iteratii de la 1 la 10000
 
             GC.Collect(); // Colectarea memoriei nefolosite, eliberarea 
 
-            Console.WriteLine("Memory after GC.Collect: " + GC.GetTotalMemory(false) + "cm");
+            Console.WriteLine("Memory after GC.Collect:        " + GC.GetTotalMemory(false) + " bytes");
 
-            Console.ReadLine();
+
+            using(Product product = new()) // To use "using" for any class, We need to implement IDisposable interface
+            {
+                product.Name = "Test";
+                Console.WriteLine(product.Name);
+            }
+        }
+    }
+
+    internal class Product: IDisposable 
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+
+        public void Dispose()
+        {
+            Console.WriteLine(Name + " Has disposed");
         }
     }
 }

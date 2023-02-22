@@ -25,18 +25,18 @@ namespace Parallel_Programming_and_the_TPL_Library // TPL - Task Parallel Librar
             //Task<int> task1 = new(() => MyMethod(12));
             //task1.Start();
 
-            //Task<int> task2 = Task.Factory.StartNew(() => MyMethod(12));
+            //Task<int> task2 = Task.Factory.StartNew(() => MyMethod(123));
 
-            //Task<int> task3 = Task.Run(() => MyMethod(12));
+            //var task3 =  Task.Run(() => MyMethod(1245));
 
             //task1.Wait();   // Asteptarea finalizarii taskului
             //task2.Wait();   // Asteptarea finalizarii taskului
             //task3.Wait();   // Asteptarea finalizarii taskului
 
 
-            // ---> Use WhenAll to wait all tasks before Main method is end <---
-            //Task.WaitAll(task1,task2,task3);
-            //Console.WriteLine("Tasks are complete");
+            //--->Use WhenAll to wait all tasks before Main method is end < ---
+            //Task.WhenAll(task1, task2, task3);
+            //Console.WriteLine("Tasks are complete" + task1.Result + task2.Result + task3.Result);
             //MethodAsync();
 
             // ---> Use WhenAny to wait one of tasks before Main method is end <---
@@ -47,44 +47,45 @@ namespace Parallel_Programming_and_the_TPL_Library // TPL - Task Parallel Librar
 
             #region Methods to Catch exceptions from tasks
 
-            //try // Catch an exception when create a task
-            //{
-            //    Task<int> task = Task.Run(() =>
-            //    {
-            //        int zero = 0;
-            //        var value = (1 + 2) / zero;
-            //        return 42;
-            //    });
+            try // Catch an exception when create a task
+            {
+                Task<int> task = Task.Run(() =>
+                {
+                    int zero = 0;
+                    var value = (1 + 2) / zero;
+                    return 42;
+                });
 
-            //    int result = task.Result; // This line may throw an exception
+                int result = task.Result; // This line may throw an exception
 
-            //    // Use the result here
-            //}
-            //catch (AggregateException ex)
-            //{
-            //    Console.WriteLine(ex.Message);
-            //}
+                // Use the result here
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
 
-            //Task<int> task1 = Task.Run(() =>
-            //{
-            //    int zero = 0;
-            //    var value = (1 + 2) / zero;
-            //    return 42;
-            //});
 
-            //task1.ContinueWith(t => // Catch an exception with ContinueWith 
-            //{
-            //    if (t.Exception != null)
-            //    {
-            //        Console.WriteLine("Is an exception");
-            //    }
-            //    else
-            //    {
-            //        int result = t.Result;
-            //        Console.WriteLine(result);
-            //    }
-            //});
+            Task<int> task1 = Task.Run(() =>
+            {
+                int zero = 0;
+                var value = (1 + 2) / zero;
+                return 42;
+            });
+
+            task1.ContinueWith(t => // Catch an exception with ContinueWith 
+            {
+                if (t.Exception != null)
+                {
+                    Console.WriteLine("Is an exception");
+                }
+                else
+                {
+                    int result = t.Result;
+                    Console.WriteLine(result);
+                }
+            });
 
             #endregion
 

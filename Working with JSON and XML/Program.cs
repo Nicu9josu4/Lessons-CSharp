@@ -15,14 +15,14 @@ class JsonAndXML
         User user1 = new()
         {
             Name = "Test",
-            Password= "password",
-            Age= 30,
-            Balance= 3000,
+            Password = "password",
+            Age = 30,
+            Balance = 3000,
         };
         string json = JsonSerializer.Serialize(user1, options);
         Console.WriteLine(json);
-        User user2 = JsonSerializer.Deserialize<User>(json);
-        Console.WriteLine( "User Name is " + user2.Name);
+        User? user2 = JsonSerializer.Deserialize<User>(json);
+        Console.WriteLine( "User Name is " + user2?.Name);
     }
 
 }

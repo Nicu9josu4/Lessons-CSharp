@@ -6,6 +6,7 @@
     <RootNamespace>Asynchronous_Programming</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <StartupObject>AsyncAwait</StartupObject>
   </PropertyGroup>
 
 </Project>
